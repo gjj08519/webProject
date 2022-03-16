@@ -1,0 +1,28 @@
+<h3>Comments</h3>
+
+<section id="comments">
+	{{#unless comments}}
+	<p>There are no comments yet! Please make one using the form above.</p>
+	{{else}}
+	{{#each comments }}
+	<article style="margin-left: calc({{ offset }} * 50px)" class="comment" comment-id="{{ id }}">
+		{{#if deletedAt}}
+		<p>Comment was deleted on {{ deletedAt }}</p>
+		{{else}}
+		<div class="actions">
+			<div>
+				By <a href="{{ path 'user/{id}' id }}">{{ user.username }}</a> @ {{ createdAt }}
+			</div>
+			<a href="{{ path 'comment/{id}/edit' id }}" class="btn-small paper-btn btn-primary">✏️Edit Comment</a>
+			<form action="{{ path 'comment/{id}' id }}" method="POST" class="delete-comment-form">
+				<input type="hidden" name="method" value="DELETE">
+				<button class="btn-small paper-btn btn-danger">🗑️ Delete Comment</button>
+			</form>
+		</div>
+		<p>{{ content }}</p>
+		{{> Comment/NewFormView }}
+		{{/if}}
+	</article>
+	{{/each}}
+	{{/unless}}
+</section>

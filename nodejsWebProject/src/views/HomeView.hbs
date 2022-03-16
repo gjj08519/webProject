@@ -1,0 +1,40 @@
+{{> Partials/Header }}
+
+<h1>Welcome to Reddit!</h1>
+<h1>Homepage!</h1>
+<h1>ALL CATEGORIES</h1>
+
+{{log payload}}
+{{#if payload.length}}
+
+<table id="categories">
+  {{#each payload}}
+  <tr category-id="{{this.id}}">
+    <td>{{this.title}}</td>
+    <td>{{this.createdAt}}</td>
+    <td>{{this.user.username}}</td>
+    <td>{{#if this.deletedAt}}Yes{{else}}No{{/if}}</td> 
+
+    <td><button>
+        <a href="{{ path 'category/{id}' id }}">Show Category</a>
+      </button>
+    </td>
+    
+  </tr>
+  {{/each}}
+</table>
+
+{{else}}
+<P>There are no categories yet! Please make one using the form below</P>
+{{/if}}
+
+
+{{#if userId}}
+<form action="{{path 'category'}}" method="POST" id="new-category-form">
+  <input type="text" name="userId" id="user_id" value={{userId}}>
+  <input type="text" name="title" id="title" placeholder="Enter Title">
+  <input type="text" name="description" id="Description" placeholder="Enter Description">
+  <button>Create Category</button>
+</form>
+{{/if}}
+{{>Partials/Footer }}

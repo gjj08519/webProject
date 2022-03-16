@@ -1,0 +1,25 @@
+<!-- Header.hbs -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <script src="{{ scripts 'main.js' }}" defer></script>
+  <title>{{ title }}</title>
+
+</head>
+
+<body>
+  <nav>
+
+    <a href="#">Reddit</a>
+    {{#if isAuthenticated}}
+    |<a href="{{ path 'auth/logout' }}">Logout</a>
+
+
+    {{else}}
+    <a href="{{ path 'auth/login' }}">Login</a> |
+    <a href="{{ path 'auth/register' }}">Register</a>
+    {{/if}}>
+
+
+  </nav>

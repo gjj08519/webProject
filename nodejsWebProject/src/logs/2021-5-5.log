@@ -1,0 +1,136 @@
+[2021-5-5 14:49:40] 📨 >> GET / ""
+[2021-5-5 14:49:41] 💌 << 200 OK
+[2021-5-5 14:49:44] 📨 >> GET /auth/login ""
+[2021-5-5 14:49:44] 💌 << 200 OK
+[2021-5-5 14:49:47] 📨 >> POST /auth/login {
+	"email": "Ida.Kessler57@yahoo.com",
+	"password": "1MGUJzxvxx79Fj0",
+	"remember": "remember"
+}
+[2021-5-5 14:49:47] 💌 << 303 SEE_OTHER
+[2021-5-5 14:49:47] 📨 >> GET /user/1 ""
+[2021-5-5 14:49:53] 💌 << 200 OK
+[2021-5-5 14:49:58] 📨 >> GET / ""
+[2021-5-5 14:49:58] 💌 << 200 OK
+[2021-5-5 14:49:59] 📨 >> GET /category/1 ""
+[2021-5-5 14:49:59] 💌 << 200 OK
+[2021-5-5 14:50:1] 📨 >> GET /post/1 ""
+[2021-5-5 14:50:22] 💌 << 200 OK
+[2021-5-5 14:50:31] 📨 >> GET /post/1/bookmark ""
+[2021-5-5 14:51:58] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:226:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:65:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-5 14:51:58] 💌 << 400 BAD_REQUEST
+[2021-5-5 14:54:32] 📨 >> GET / ""
+[2021-5-5 14:54:33] 💌 << 200 OK
+[2021-5-5 14:54:36] 📨 >> GET /auth/login ""
+[2021-5-5 14:54:36] 💌 << 200 OK
+[2021-5-5 14:54:39] 📨 >> POST /auth/login {
+	"email": "Nathanael.Bartoletti84@gmail.com",
+	"password": "m4pNVFL92WrD6NE",
+	"remember": "remember"
+}
+[2021-5-5 14:54:39] 💌 << 303 SEE_OTHER
+[2021-5-5 14:54:39] 📨 >> GET /user/7 ""
+[2021-5-5 14:54:40] 💌 << 200 OK
+[2021-5-5 14:54:41] 📨 >> GET / ""
+[2021-5-5 14:54:42] 💌 << 200 OK
+[2021-5-5 14:54:44] 📨 >> GET /category/3 ""
+[2021-5-5 14:54:44] 💌 << 200 OK
+[2021-5-5 14:54:47] 📨 >> GET /post/3 ""
+[2021-5-5 14:54:47] 💌 << 200 OK
+[2021-5-5 14:54:57] 📨 >> GET /post/3/bookmark ""
+[2021-5-5 14:54:57] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:226:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:65:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-5 14:54:57] 💌 << 400 BAD_REQUEST
+[2021-5-5 14:59:17] 📨 >> GET / ""
+[2021-5-5 14:59:17] 💌 << 200 OK
+[2021-5-5 14:59:19] 📨 >> GET /auth/login ""
+[2021-5-5 14:59:19] 💌 << 200 OK
+[2021-5-5 14:59:23] 📨 >> POST /auth/login {
+	"email": "Lola_Haley96@gmail.com",
+	"password": "0kEhrkBia7SfL2S",
+	"remember": "remember"
+}
+[2021-5-5 14:59:23] 💌 << 303 SEE_OTHER
+[2021-5-5 14:59:23] 📨 >> GET /user/13 ""
+[2021-5-5 14:59:23] 💌 << 200 OK
+[2021-5-5 14:59:24] 📨 >> GET / ""
+[2021-5-5 14:59:25] 💌 << 200 OK
+[2021-5-5 14:59:26] 📨 >> GET /category/5 ""
+[2021-5-5 14:59:27] 💌 << 200 OK
+[2021-5-5 14:59:29] 📨 >> GET /post/5 ""
+[2021-5-5 14:59:33] 💌 << 200 OK
+[2021-5-5 14:59:41] 📨 >> GET /post/5/bookmark ""
+[2021-5-5 14:59:41] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:226:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:65:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-5 14:59:41] 💌 << 400 BAD_REQUEST
+[2021-5-5 15:3:31] 📨 >> GET / ""
+[2021-5-5 15:3:32] 💌 << 200 OK
+[2021-5-5 15:3:47] 📨 >> GET /auth/login ""
+[2021-5-5 15:3:47] 💌 << 200 OK
+[2021-5-5 15:3:55] 📨 >> GET /auth/register ""
+[2021-5-5 15:3:55] 💌 << 200 OK
+[2021-5-5 15:4:3] 📨 >> POST /user {
+	"username": "111",
+	"email": "111",
+	"password": "111"
+}
+[2021-5-5 15:4:4] 📨 >> POST /user {
+	"username": "111",
+	"email": "111",
+	"password": "111"
+}
+[2021-5-5 15:4:4] 💌 << 303 SEE_OTHER
+[2021-5-5 15:4:4] 💌 << 303 SEE_OTHER
+[2021-5-5 15:4:4] 📨 >> GET /auth/login ""
+[2021-5-5 15:4:4] 💌 << 200 OK
+[2021-5-5 15:4:11] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-5 15:4:11] 💌 << 303 SEE_OTHER
+[2021-5-5 15:4:11] 📨 >> GET /user/19 ""
+[2021-5-5 15:4:11] 💌 << 200 OK
+[2021-5-5 15:4:20] 📨 >> GET / ""
+[2021-5-5 15:4:20] 💌 << 200 OK
+[2021-5-5 15:4:25] 📨 >> GET /category/6 ""
+[2021-5-5 15:4:25] 💌 << 200 OK
+[2021-5-5 15:4:29] 📨 >> GET /post/6 ""
+[2021-5-5 15:4:42] 💌 << 200 OK
+[2021-5-5 15:6:32] 📨 >> GET /post/6/unbookmark ""
+[2021-5-5 15:7:4] PostException: Cannot unbookmark Post: Post has not been bookmarked.
+    at Post.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:270:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:80:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-5 15:7:4] 💌 << 400 BAD_REQUEST
+[2021-5-5 15:12:59] 📨 >> GET /post/6/bookmark ""
+[2021-5-5 15:13:0] 💌 << 200 OK
+[2021-5-5 15:13:33] 📨 >> GET /post/6/unbookmark ""
+[2021-5-5 15:13:47] 💌 << 200 OK
+[2021-5-5 15:14:4] 📨 >> GET /category/3 ""
+[2021-5-5 15:14:4] 💌 << 200 OK
+[2021-5-5 15:14:6] 📨 >> GET /post/3 ""
+[2021-5-5 15:14:7] 💌 << 200 OK
+[2021-5-5 15:16:44] 📨 >> GET /category/5 ""
+[2021-5-5 15:16:44] 💌 << 200 OK
+[2021-5-5 15:16:45] 📨 >> GET /post/5 ""
+[2021-5-5 15:16:45] 💌 << 200 OK

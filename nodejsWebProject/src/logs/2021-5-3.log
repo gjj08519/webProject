@@ -1,0 +1,263 @@
+[2021-5-3 9:7:18] 📨 >> GET / ""
+[2021-5-3 9:7:19] 💌 << 200 OK
+[2021-5-3 9:7:21] 📨 >> GET /auth/login ""
+[2021-5-3 9:7:21] 💌 << 200 OK
+[2021-5-3 9:7:24] 📨 >> POST /auth/login {
+	"email": "Bianka.Upton72@hotmail.com",
+	"password": "kXHi0qzofag8koh",
+	"remember": "remember"
+}
+[2021-5-3 9:7:24] 💌 << 303 SEE_OTHER
+[2021-5-3 9:7:24] 📨 >> GET /user/1 ""
+[2021-5-3 9:7:24] 💌 << 200 OK
+[2021-5-3 9:8:4] 📨 >> GET / ""
+[2021-5-3 9:8:4] 💌 << 200 OK
+[2021-5-3 9:12:56] 📨 >> GET / ""
+[2021-5-3 9:12:56] 💌 << 200 OK
+[2021-5-3 9:12:57] 📨 >> GET /auth/login ""
+[2021-5-3 9:12:57] 💌 << 200 OK
+[2021-5-3 9:13:0] 📨 >> POST /auth/login {
+	"email": "Daisha_Hayes77@hotmail.com",
+	"password": "DUbRRJzGbPI5_1k",
+	"remember": "remember"
+}
+[2021-5-3 9:13:0] 💌 << 303 SEE_OTHER
+[2021-5-3 9:13:0] 📨 >> GET /user/9 ""
+[2021-5-3 9:13:0] 💌 << 200 OK
+[2021-5-3 9:13:1] 📨 >> GET / ""
+[2021-5-3 9:13:1] 💌 << 200 OK
+[2021-5-3 9:13:3] 📨 >> GET /category/3 ""
+[2021-5-3 9:13:3] 💌 << 200 OK
+[2021-5-3 9:13:5] 📨 >> GET /post/3 ""
+[2021-5-3 9:13:5] 💌 << 200 OK
+[2021-5-3 11:39:6] 📨 >> GET / ""
+[2021-5-3 11:39:6] 💌 << 200 OK
+[2021-5-3 11:39:10] 📨 >> GET /auth/login ""
+[2021-5-3 11:39:10] 💌 << 200 OK
+[2021-5-3 11:39:16] 📨 >> POST /auth/login {
+	"email": "Annamarie_Russel@yahoo.com",
+	"password": "K5dU0z6TDf1QOIG",
+	"remember": "remember"
+}
+[2021-5-3 11:39:16] 💌 << 303 SEE_OTHER
+[2021-5-3 11:39:16] 📨 >> GET /user/7 ""
+[2021-5-3 11:41:32] 💌 << 200 OK
+[2021-5-3 11:41:46] 📨 >> GET / ""
+[2021-5-3 11:41:46] 💌 << 200 OK
+[2021-5-3 11:41:49] 📨 >> GET /category/3 ""
+[2021-5-3 11:41:49] 💌 << 200 OK
+[2021-5-3 11:43:36] 📨 >> GET /post/3 ""
+[2021-5-3 11:43:52] 💌 << 200 OK
+[2021-5-3 11:44:57] 📨 >> GET / ""
+[2021-5-3 11:44:58] 💌 << 200 OK
+[2021-5-3 11:44:59] 📨 >> GET /auth/login ""
+[2021-5-3 11:44:59] 💌 << 200 OK
+[2021-5-3 11:45:2] 📨 >> POST /auth/login {
+	"email": "Chelsey_Vandervort70@yahoo.com",
+	"password": "JPmSu6BnNqFMrMC",
+	"remember": "remember"
+}
+[2021-5-3 11:45:2] 💌 << 303 SEE_OTHER
+[2021-5-3 11:45:2] 📨 >> GET /user/13 ""
+[2021-5-3 11:45:11] 💌 << 200 OK
+[2021-5-3 11:45:19] 📨 >> GET / ""
+[2021-5-3 11:45:19] 💌 << 200 OK
+[2021-5-3 11:45:21] 📨 >> GET /category/5 ""
+[2021-5-3 11:45:21] 💌 << 200 OK
+[2021-5-3 11:45:23] 📨 >> GET /post/5 ""
+[2021-5-3 11:46:7] 💌 << 200 OK
+[2021-5-3 11:55:27] 📨 >> GET / ""
+[2021-5-3 11:55:27] 💌 << 200 OK
+[2021-5-3 11:55:28] 📨 >> GET /auth/login ""
+[2021-5-3 11:55:28] 💌 << 200 OK
+[2021-5-3 11:55:30] 📨 >> POST /auth/login {
+	"email": "Keeley.Nikolaus@gmail.com",
+	"password": "C2aWyLSNqGlp1LP",
+	"remember": "remember"
+}
+[2021-5-3 11:55:30] 💌 << 303 SEE_OTHER
+[2021-5-3 11:55:30] 📨 >> GET /user/1 ""
+[2021-5-3 11:55:39] 💌 << 200 OK
+[2021-5-3 11:55:44] 📨 >> GET / ""
+[2021-5-3 11:55:44] 💌 << 200 OK
+[2021-5-3 11:55:46] 📨 >> GET /category/1 ""
+[2021-5-3 11:55:46] 💌 << 200 OK
+[2021-5-3 11:55:48] 📨 >> GET /post/1 ""
+[2021-5-3 11:58:13] 📨 >> GET / ""
+[2021-5-3 11:58:13] 💌 << 200 OK
+[2021-5-3 11:58:14] 📨 >> GET /auth/login ""
+[2021-5-3 11:58:14] 💌 << 200 OK
+[2021-5-3 11:58:16] 📨 >> POST /auth/login {
+	"email": "Landen.Kiehn@hotmail.com",
+	"password": "QUdSZwLDhK6cmm5",
+	"remember": "remember"
+}
+[2021-5-3 11:58:16] 💌 << 303 SEE_OTHER
+[2021-5-3 11:58:16] 📨 >> GET /user/7 ""
+[2021-5-3 11:58:20] 💌 << 200 OK
+[2021-5-3 11:58:25] 📨 >> GET / ""
+[2021-5-3 11:58:25] 💌 << 200 OK
+[2021-5-3 11:58:26] 📨 >> GET /category/3 ""
+[2021-5-3 11:58:26] 💌 << 200 OK
+[2021-5-3 11:58:28] 📨 >> GET /post/3 ""
+[2021-5-3 11:58:51] 💌 << 200 OK
+[2021-5-3 11:59:0] 📨 >> GET /post/3/bookmark ""
+[2021-5-3 11:59:12] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:226:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:65:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-3 11:59:12] 💌 << 400 BAD_REQUEST
+[2021-5-3 12:6:40] 📨 >> GET / ""
+[2021-5-3 12:6:40] 💌 << 200 OK
+[2021-5-3 12:6:41] 📨 >> GET /auth/login ""
+[2021-5-3 12:6:41] 💌 << 200 OK
+[2021-5-3 12:6:44] 📨 >> POST /auth/login {
+	"email": "Eleonore_Nader@hotmail.com",
+	"password": "UnQ0xqSiOQL8v2w",
+	"remember": "remember"
+}
+[2021-5-3 12:6:44] 💌 << 303 SEE_OTHER
+[2021-5-3 12:6:44] 📨 >> GET /user/13 ""
+[2021-5-3 12:6:48] 💌 << 200 OK
+[2021-5-3 12:6:53] 📨 >> GET / ""
+[2021-5-3 12:6:53] 💌 << 200 OK
+[2021-5-3 12:6:55] 📨 >> GET /category/5 ""
+[2021-5-3 12:6:55] 💌 << 200 OK
+[2021-5-3 12:6:56] 📨 >> GET /post/5 ""
+[2021-5-3 12:7:18] 💌 << undefined undefined
+[2021-5-3 12:9:35] 📨 >> GET / ""
+[2021-5-3 12:9:35] 💌 << 200 OK
+[2021-5-3 12:9:36] 📨 >> GET /auth/login ""
+[2021-5-3 12:9:36] 💌 << 200 OK
+[2021-5-3 12:9:38] 📨 >> POST /auth/login {
+	"email": "Leopold.Hills79@yahoo.com",
+	"password": "ZQ9SJL8yWO3MVzf",
+	"remember": "remember"
+}
+[2021-5-3 12:9:39] 💌 << 303 SEE_OTHER
+[2021-5-3 12:9:39] 📨 >> GET /user/19 ""
+[2021-5-3 12:9:51] 💌 << 200 OK
+[2021-5-3 12:10:12] 📨 >> GET / ""
+[2021-5-3 12:10:12] 💌 << 200 OK
+[2021-5-3 12:10:14] 📨 >> GET /category/7 ""
+[2021-5-3 12:10:14] 💌 << 200 OK
+[2021-5-3 12:10:16] 📨 >> GET /post/7 ""
+[2021-5-3 12:11:49] 💌 << 200 OK
+[2021-5-3 12:12:6] 📨 >> GET /post/7/bookmark ""
+[2021-5-3 12:13:55] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:226:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:65:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-3 12:13:55] 💌 << 400 BAD_REQUEST
+[2021-5-3 12:15:32] 📨 >> GET / ""
+[2021-5-3 12:15:32] 💌 << 200 OK
+[2021-5-3 12:15:33] 📨 >> GET /auth/login ""
+[2021-5-3 12:15:33] 💌 << 200 OK
+[2021-5-3 12:15:35] 📨 >> POST /auth/login {
+	"email": "Yoshiko.Armstrong@hotmail.com",
+	"password": "NKrKYpcTxw9PLZi",
+	"remember": "remember"
+}
+[2021-5-3 12:15:35] 💌 << 303 SEE_OTHER
+[2021-5-3 12:15:35] 📨 >> GET /user/25 ""
+[2021-5-3 12:15:42] 💌 << 200 OK
+[2021-5-3 12:15:53] 📨 >> GET / ""
+[2021-5-3 12:15:53] 💌 << 200 OK
+[2021-5-3 12:15:55] 📨 >> GET /category/9 ""
+[2021-5-3 12:15:55] 💌 << 200 OK
+[2021-5-3 12:15:58] 📨 >> GET /post/9 ""
+[2021-5-3 12:16:7] 💌 << 200 OK
+[2021-5-3 12:16:43] 📨 >> GET /post/9/bookmark ""
+[2021-5-3 12:17:44] PostException: Cannot bookmark Post: Post has already been bookmarked.
+    at Post.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:226:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:65:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-3 12:18:24] 📨 >> GET / ""
+[2021-5-3 12:18:24] 💌 << 200 OK
+[2021-5-3 12:18:30] 📨 >> GET /auth/register ""
+[2021-5-3 12:18:30] 💌 << 200 OK
+[2021-5-3 12:18:42] 📨 >> POST /user {
+	"username": "111",
+	"email": "111",
+	"password": "111"
+}
+[2021-5-3 12:18:42] 💌 << 303 SEE_OTHER
+[2021-5-3 12:18:42] 📨 >> GET /auth/login ""
+[2021-5-3 12:18:42] 💌 << 200 OK
+[2021-5-3 12:18:50] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-3 12:18:50] 💌 << 303 SEE_OTHER
+[2021-5-3 12:18:50] 📨 >> GET /user/31 ""
+[2021-5-3 12:19:2] 💌 << 200 OK
+[2021-5-3 12:19:33] 📨 >> GET / ""
+[2021-5-3 12:19:33] 💌 << 200 OK
+[2021-5-3 12:19:39] 📨 >> GET /category/10 ""
+[2021-5-3 12:19:39] 💌 << 200 OK
+[2021-5-3 12:19:43] 📨 >> GET /post/10 ""
+[2021-5-3 12:20:8] 💌 << 200 OK
+[2021-5-3 12:20:22] 📨 >> GET /post/10/unbookmark ""
+[2021-5-3 12:22:27] 📨 >> GET /post/10/bookmark ""
+[2021-5-3 12:22:27] PostException: Cannot bookmark Post: You must be logged in.
+    at PostController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:62:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-3 12:22:27] 💌 << 401 UNAUTHORIZED
+[2021-5-3 12:23:9] 📨 >> GET /post/10/unbookmark ""
+[2021-5-3 12:23:9] PostException: Cannot unbookmark Post: You must be logged in.
+    at PostController.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:77:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-3 12:23:9] 💌 << 401 UNAUTHORIZED
+[2021-5-3 12:25:45] 📨 >> GET / ""
+[2021-5-3 12:25:45] 💌 << 200 OK
+[2021-5-3 12:25:50] 📨 >> GET /auth/login ""
+[2021-5-3 12:25:50] 💌 << 200 OK
+[2021-5-3 12:25:54] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-3 12:25:54] 💌 << 303 SEE_OTHER
+[2021-5-3 12:25:54] 📨 >> GET /user/31 ""
+[2021-5-3 12:26:2] 💌 << 200 OK
+[2021-5-3 12:26:12] 📨 >> GET / ""
+[2021-5-3 12:26:12] 💌 << 200 OK
+[2021-5-3 12:26:23] 📨 >> GET /category/10 ""
+[2021-5-3 12:26:23] 💌 << 200 OK
+[2021-5-3 12:26:27] 📨 >> GET /post/10 ""
+[2021-5-3 12:26:51] 💌 << 200 OK
+[2021-5-3 12:27:14] 📨 >> GET /post/10/unbookmark ""
+[2021-5-3 13:14:46] 📨 >> GET /post/10/bookmark ""
+[2021-5-3 13:14:46] 📨 >> GET /post/10/unbookmark ""
+[2021-5-3 13:14:46] PostException: Cannot unbookmark Post: Post has not been bookmarked.
+    at Post.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:270:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:80:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-3 13:14:46] PostException: Cannot unbookmark Post: Post has not been bookmarked.
+    at Post.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:270:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:80:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-3 13:14:46] 💌 << 400 BAD_REQUEST
+[2021-5-3 13:14:46] 💌 << 400 BAD_REQUEST

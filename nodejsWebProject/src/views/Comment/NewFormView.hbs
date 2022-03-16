@@ -1,0 +1,24 @@
+{{#if replyId}}
+<form action="{{ path 'comment' }}" method="POST" class="new-reply-form">
+	<input type="hidden" name="replyId" value="{{ replyId }}">
+	<input type="hidden" name="postId" value="{{ postId }}">
+
+	{{#unless deletedAt}}
+	<div class="reply-box">
+		<input type="number" name="userId" placeholder="Enter User ID"><br>
+		<textarea name="content" placeholder="Enter reply"></textarea>
+		<button class="paper-btn btn-primary">Reply</button>
+	</div>
+	{{/unless}}
+</form>
+{{else}}
+<form action="{{ path 'comment' }}" method="POST" id="new-comment-form">
+	<input type="hidden" name="postId" value="{{ payload.id }}">
+
+	{{#unless payload.deletedAt}}
+	<input type="number" name="userId" placeholder="Enter User ID"><br>
+	<textarea name="content" placeholder="Enter comment" cols="60" rows="5"></textarea>
+	<button class="paper-btn btn-primary">New Comment</button>
+	{{/unless}}
+</form>
+{{/if}}

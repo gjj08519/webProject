@@ -1,0 +1,93 @@
+{{> Partials/Header }}
+
+<h1>Comments</h1>
+
+{{#if payload.deletedAt }}
+
+<p>Comment was deleted on {{payload.deletedAt}}</p>
+{{else}}
+
+
+<div class="comment" comment-id="{{payload.id}}">
+    <p>Posted By {{payload.user.username}} &copy;{{payload.createdAt}}</p>
+    <p class="comment-votes" id="comment-votes" comment-id="{{payload.id}}" voteState="un">{{payload.votes}}</p>
+    {{log isAuthenticated}}
+
+    {{#if isAuthenticated}}
+    <td>
+        <button class="comment-upvote-button" id="comment-upvote-button" comment-id="{{payload.id}}">
+            Upvote Comment</a>
+        </button>
+    </td>
+    <td>
+        <button class="comment-downvote-button" id="comment-downvote-button" comment-id="{{payload.id}}">
+            Downvote Comment</a>
+        </button>
+    </td>
+    <a href="{{ path 'user/{id}' userId }}">show user</a>
+    <button>
+        <a href="{{ path 'comment/{id}/edit' id }}">Edit Comment</a>
+    </button>
+
+    <form action="{{ path 'comment/{id}' id }}" method="POST">
+        <input type="hidden" name="method" value="DELETE">
+        <button>
+            Delete Comment
+        </button>
+    </form>
+    {{/if}}
+    <p>{{ payload.content }}</p>
+</div>
+
+
+
+<form action="{{ path 'comment'}}" method="POST" id="new-comment-form">
+    <input type="text" name="userId" id="userId" placeholder="Enter User ID">
+    <input type="text" name="replyId" value={{payload.id}}>
+    <input type="text" name="postId" value={{payload.post.id}}>
+    <textarea rows="4" cols="50" name="content" placeholder="Enter Comment"></textarea>
+    <button>New Comment</button>
+</form>
+
+{{log reply}}
+{{#if reply.length}}
+<section class="comments">
+    <table>
+        {{#each reply}}
+        <tr class="comment" comment-id="{{this.id}}">
+            {{#if deletedAt }}
+            <td>Comment was deleted on {{deletedAt}}</td>
+            {{else}}
+            <td>{{this.offset}}</td>
+            <td>{{this.content}}</td>
+            <td>{{this.createdAt}}</td>
+            <td>{{this.user.username}}</td>
+            {{#if ../isAuthenticated}}
+            <td><button>
+                    <a href="{{ path 'comment/{id}/edit' reply.id }}">Edit Comment</a>
+                </button>
+            </td>
+            <td>
+                <form action="{{ path 'comment/{id}' reply.id }}" method="POST">
+                    <input type="hidden" name="method" value="DELETE">
+                    <button>
+                        Delete Comment
+                    </button>
+                </form>
+            </td>
+            {{/if}}
+            {{/if}}
+        </tr>
+        {{/each}}
+    </table>
+</section>
+
+{{/if}}
+{{/if}}
+
+
+
+
+
+
+{{>Partials/Footer }}

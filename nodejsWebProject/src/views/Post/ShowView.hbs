@@ -1,0 +1,139 @@
+{{> Partials/Header }}
+
+
+
+{{#if payload.deletedAt }}
+<p id="post-title">{{ payload.title }}</p>
+<p>Post was deleted on {{payload.deletedAt}}</p>
+{{else}}
+<p id="post-title">{{ payload.title }}</p>
+<p id="post-content">{{ payload.content }}</p>
+<p class="post-votes" id="post-votes" post-id="{{ payload.id }}" voteState="un">{{payload.votes}}</p>
+<p>Posted By {{payload.user.username}} &copy;{{payload.createdAt}}</p>
+
+{{#if isAuthenticated}}
+
+{{#if yesNoText}}
+<button>
+    <a href="{{ path 'post/{id}/edit' payload.id }}">Edit Post</a>
+</button>
+{{/if}}
+
+{{#if state}}
+<button id="post-bookmark-button" post-id="{{ payload.id }}" state="bookmarked">
+    Unbookmark Post
+</button>
+{{else}}
+<button id="post-bookmark-button" post-id="{{ payload.id }}" state="unbookmarked">
+    Bookmark Post
+</button>
+{{/if}}
+{{#if isAuthenticated}}
+<button class="post-upvote-button" id="post-upvote-button" post-id="{{ payload.id }}">
+    Upvote Post</a>
+</button>
+<button class="post-downvote-button" id="post-downvote-button" post-id="{{ payload.id }}">
+    Downvote Post</a>
+</button>
+{{/if}}
+<a href="{{ path 'user/{id}' userId }}">show user</a>
+<form action="{{ path 'post/{id}' payload.id }}" method="POST" id="delete-post-form">
+    <input type="hidden" name="method" value="DELETE">
+    <input type="hidden" type="text" name="title" value={{payload.title}}>
+    <button>
+        Delete Post
+    </button>
+</form>
+{{/if}}
+
+<h1>New Comment</h1>
+{{#if userId}}
+<form action="{{ path 'comment'}}" method="POST" id="new-comment-form">
+    <input type="text" name="userId" value={{userId}}>
+    <input type="hidden" type="text" name="postId" value={{payload.id}}>
+    <input type="hidden" type="text" name="postTitle" value={{payload.title}}>
+    <textarea rows="4" cols="50" name="content" placeholder="Enter content"></textarea>
+    <button>New Comment</button>
+</form>
+{{/if}}
+
+<h1>Comments</h1>
+
+{{#if comments.length}}
+<section class="comment" id="comments">
+    <table>
+        {{#each comments}}
+        <tr class="comment" comment-id="{{this.id}}">
+            {{#if deletedAt }}
+            <td>Comment was deleted on {{deletedAt}}</td>
+            {{else}}
+            <td>{{this.offset}}</td>
+            <td>{{this.content}}</td>
+            <td>{{this.createdAt}}</td>
+            <td>{{this.user.username}}</td>
+            <td><button>
+                    <a href="{{ path 'comment/{id}' id }}">Show Comment</a>
+                </button>
+            </td>
+            <td class="comment-votes" id="comment-votes" comment-id="{{this.id}}" voteState="un">{{this.votes}}</td>
+
+            {{#if ../isAuthenticated}}
+            <td>
+                <button class="comment-upvote-button" id="comment-upvote-button" comment-id="{{this.id}}">
+                    Upvote Comment</a>
+                </button>
+            </td>
+            <td>
+                <button class="comment-downvote-button" id="comment-downvote-button" comment-id="{{this.id}}">
+                    Downvote Comment</a>
+                </button>
+            </td>
+            <td><button>
+                    <a href="{{ path 'comment/{id}/edit'  id }}">Edit Comment</a>
+                </button>
+            </td>
+           {{log bookmarKed}}
+            {{#if bookmarKed}}
+           
+            <td>
+                <button class="comment-bookmark-button"  id="comment-bookmark-button" comment-id="{{this.id}}" state="bookmarked"
+                   >
+                    Unbookmark Comment
+                </button>
+
+            </td>
+            {{else}}
+            <td>
+                <button class="comment-bookmark-button" comment-id="{{this.id}}" state="unbookmarked"
+                    id="comment-bookmark-button">
+                    Bookmark Comment
+                </button>
+            </td>
+            {{/if}}
+            <td>
+                <form action="{{ path 'comment/{id}' id }}" method="POST" class="delete-comment-form">
+                    <input type="hidden" name="method" value="DELETE">
+                    <input type="text" name="postId" value={{post.id}}>
+                    <input type="text" name="commentId" value={{id}}>
+                    <button>
+                        Delete Comment
+                    </button>
+                </form>
+            </td>
+
+            {{/if}}
+            {{/if}}
+        </tr>
+
+
+        {{/each}}
+    </table>
+</section>
+{{else}}
+<p>There are no comments yet! Please make one using the form above.</p>
+{{/if}}
+
+{{/if}}
+
+
+{{>Partials/Footer }}

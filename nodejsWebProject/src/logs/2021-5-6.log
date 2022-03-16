@@ -1,0 +1,3198 @@
+[2021-5-6 13:38:46] 📨 >> GET / ""
+[2021-5-6 13:38:46] 💌 << 200 OK
+[2021-5-6 13:38:48] 📨 >> GET /auth/login ""
+[2021-5-6 13:38:48] 💌 << 200 OK
+[2021-5-6 13:38:52] 📨 >> POST /auth/login {
+	"email": "Elnora_Schowalter24@yahoo.com",
+	"password": "IFP2yLheJ1amC2f",
+	"remember": "remember"
+}
+[2021-5-6 13:38:52] 💌 << 303 SEE_OTHER
+[2021-5-6 13:38:52] 📨 >> GET /user/21 ""
+[2021-5-6 13:38:52] 💌 << 200 OK
+[2021-5-6 13:38:54] 📨 >> GET / ""
+[2021-5-6 13:38:54] 💌 << 200 OK
+[2021-5-6 13:38:55] 📨 >> GET /category/7 ""
+[2021-5-6 13:38:55] 💌 << 200 OK
+[2021-5-6 13:38:57] 📨 >> GET /post/7 ""
+[2021-5-6 13:38:58] 💌 << 200 OK
+[2021-5-6 13:39:0] 📨 >> GET /post/7/unbookmark ""
+[2021-5-6 13:39:0] 💌 << 200 OK
+[2021-5-6 13:39:3] 📨 >> GET /user/21 ""
+[2021-5-6 13:39:3] 💌 << 200 OK
+[2021-5-6 13:39:6] 📨 >> GET /user/21/postbookmarks ""
+[2021-5-6 13:39:6] 💌 << 200 OK
+[2021-5-6 13:52:59] 📨 >> GET / ""
+[2021-5-6 13:52:59] 💌 << 200 OK
+[2021-5-6 13:53:1] 📨 >> GET /auth/login ""
+[2021-5-6 13:53:1] 💌 << 200 OK
+[2021-5-6 13:53:3] 📨 >> POST /auth/login {
+	"email": "Claudia_Predovic@yahoo.com",
+	"password": "rHRvKiM6TkLyFnE",
+	"remember": "remember"
+}
+[2021-5-6 13:53:3] 💌 << 303 SEE_OTHER
+[2021-5-6 13:53:3] 📨 >> GET /user/1 ""
+[2021-5-6 13:53:3] 💌 << 200 OK
+[2021-5-6 13:53:5] 📨 >> GET / ""
+[2021-5-6 13:53:5] 💌 << 200 OK
+[2021-5-6 13:53:7] 📨 >> GET /category/2 ""
+[2021-5-6 13:53:7] 💌 << 200 OK
+[2021-5-6 13:53:9] 📨 >> GET /post/2 ""
+[2021-5-6 13:53:9] 💌 << undefined undefined
+[2021-5-6 13:55:14] 📨 >> GET / ""
+[2021-5-6 13:55:15] 💌 << 200 OK
+[2021-5-6 13:55:16] 📨 >> GET /auth/login ""
+[2021-5-6 13:55:16] 💌 << 200 OK
+[2021-5-6 13:55:18] 📨 >> POST /auth/login {
+	"email": "Trey_Kilback@yahoo.com",
+	"password": "qwYsEmMMrrdcjHV",
+	"remember": "remember"
+}
+[2021-5-6 13:55:18] 💌 << 303 SEE_OTHER
+[2021-5-6 13:55:18] 📨 >> GET /user/7 ""
+[2021-5-6 13:55:18] 💌 << 200 OK
+[2021-5-6 13:55:19] 📨 >> GET / ""
+[2021-5-6 13:55:19] 💌 << 200 OK
+[2021-5-6 13:55:20] 📨 >> GET /category/4 ""
+[2021-5-6 13:55:20] 💌 << 200 OK
+[2021-5-6 13:55:22] 📨 >> GET /post/4 ""
+[2021-5-6 13:55:23] 💌 << undefined undefined
+[2021-5-6 13:55:40] 📨 >> GET /post/4 ""
+[2021-5-6 13:55:40] 💌 << undefined undefined
+[2021-5-6 13:57:8] 📨 >> GET / ""
+[2021-5-6 13:57:8] 💌 << 200 OK
+[2021-5-6 13:57:13] 📨 >> GET /auth/register ""
+[2021-5-6 13:57:13] 💌 << 200 OK
+[2021-5-6 13:57:23] 📨 >> POST /user {
+	"username": "111",
+	"email": "111",
+	"password": "111"
+}
+[2021-5-6 13:57:23] 💌 << 303 SEE_OTHER
+[2021-5-6 13:57:23] 📨 >> GET /auth/login ""
+[2021-5-6 13:57:23] 💌 << 200 OK
+[2021-5-6 13:57:31] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-6 13:57:31] 💌 << 303 SEE_OTHER
+[2021-5-6 13:57:31] 📨 >> GET /user/13 ""
+[2021-5-6 13:57:32] 💌 << 200 OK
+[2021-5-6 13:57:37] 📨 >> GET / ""
+[2021-5-6 13:57:37] 💌 << 200 OK
+[2021-5-6 13:57:40] 📨 >> GET /category/4 ""
+[2021-5-6 13:57:40] 💌 << 200 OK
+[2021-5-6 13:57:44] 📨 >> GET /post/4 ""
+[2021-5-6 13:57:44] 💌 << undefined undefined
+[2021-5-6 13:58:20] 📨 >> GET /post/4 ""
+[2021-5-6 13:58:20] 💌 << undefined undefined
+[2021-5-6 13:58:23] 📨 >> GET /post/4 ""
+[2021-5-6 13:58:23] 💌 << undefined undefined
+[2021-5-6 13:58:33] 📨 >> GET /post/4 ""
+[2021-5-6 13:58:33] 💌 << undefined undefined
+[2021-5-6 13:58:52] 📨 >> GET /category/4 ""
+[2021-5-6 13:58:52] 💌 << 200 OK
+[2021-5-6 13:58:58] 📨 >> GET /post/4 ""
+[2021-5-6 13:58:58] 💌 << undefined undefined
+[2021-5-6 14:0:32] 📨 >> GET /post/4 ""
+[2021-5-6 14:0:32] 💌 << undefined undefined
+[2021-5-6 14:0:35] 📨 >> GET /post/4 ""
+[2021-5-6 14:0:35] 💌 << undefined undefined
+[2021-5-6 14:0:42] 📨 >> GET /category/3 ""
+[2021-5-6 14:0:42] 💌 << 200 OK
+[2021-5-6 14:0:43] 📨 >> GET /post/3 ""
+[2021-5-6 14:0:43] 💌 << undefined undefined
+[2021-5-6 14:0:46] 📨 >> GET /auth/login ""
+[2021-5-6 14:0:46] 💌 << 200 OK
+[2021-5-6 14:0:51] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-6 14:0:52] 💌 << 303 SEE_OTHER
+[2021-5-6 14:0:52] 📨 >> GET /user/13 ""
+[2021-5-6 14:0:52] 💌 << 200 OK
+[2021-5-6 14:0:57] 📨 >> GET / ""
+[2021-5-6 14:0:57] 💌 << 200 OK
+[2021-5-6 14:1:0] 📨 >> GET /category/4 ""
+[2021-5-6 14:1:0] 💌 << 200 OK
+[2021-5-6 14:1:4] 📨 >> GET /post/4 ""
+[2021-5-6 14:1:4] 💌 << undefined undefined
+[2021-5-6 14:2:35] 📨 >> GET / ""
+[2021-5-6 14:2:35] 💌 << 200 OK
+[2021-5-6 14:2:37] 📨 >> GET /auth/login ""
+[2021-5-6 14:2:38] 💌 << 200 OK
+[2021-5-6 14:2:42] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-6 14:2:42] 💌 << 303 SEE_OTHER
+[2021-5-6 14:2:42] 📨 >> GET /user/13 ""
+[2021-5-6 14:2:42] 💌 << 200 OK
+[2021-5-6 14:2:46] 📨 >> GET / ""
+[2021-5-6 14:2:47] 💌 << 200 OK
+[2021-5-6 14:2:50] 📨 >> GET /category/4 ""
+[2021-5-6 14:2:50] 💌 << 200 OK
+[2021-5-6 14:2:55] 📨 >> GET /post/4 ""
+[2021-5-6 14:5:7] 📨 >> GET /post/4 ""
+[2021-5-6 14:5:51] 📨 >> GET /post/4 ""
+[2021-5-6 14:6:4] 📨 >> GET / ""
+[2021-5-6 14:6:4] 💌 << 200 OK
+[2021-5-6 14:22:10] 📨 >> GET /category/4 ""
+[2021-5-6 14:22:10] 💌 << 200 OK
+[2021-5-6 14:22:22] 📨 >> GET / ""
+[2021-5-6 14:22:22] 💌 << 200 OK
+[2021-5-6 14:22:24] 📨 >> GET /auth/register ""
+[2021-5-6 14:22:25] 💌 << 200 OK
+[2021-5-6 14:22:26] 📨 >> GET /auth/login ""
+[2021-5-6 14:22:26] 💌 << 200 OK
+[2021-5-6 14:22:32] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-6 14:22:32] 💌 << 303 SEE_OTHER
+[2021-5-6 14:22:32] 📨 >> GET /user/13 ""
+[2021-5-6 14:22:32] 💌 << 200 OK
+[2021-5-6 14:22:36] 📨 >> GET / ""
+[2021-5-6 14:22:36] 💌 << 200 OK
+[2021-5-6 14:22:40] 📨 >> GET /category/4 ""
+[2021-5-6 14:22:40] 💌 << 200 OK
+[2021-5-6 14:22:41] 📨 >> GET /post/4 ""
+[2021-5-6 14:24:55] 📨 >> GET /post/4 ""
+[2021-5-6 14:25:5] 📨 >> GET /post/4 ""
+[2021-5-6 14:25:38] 📨 >> GET / ""
+[2021-5-6 14:25:38] 💌 << 200 OK
+[2021-5-6 14:25:42] 📨 >> GET /auth/login ""
+[2021-5-6 14:25:42] 💌 << 200 OK
+[2021-5-6 14:25:47] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-6 14:25:47] 💌 << 303 SEE_OTHER
+[2021-5-6 14:25:47] 📨 >> GET /user/13 ""
+[2021-5-6 14:25:47] 💌 << 200 OK
+[2021-5-6 14:25:52] 📨 >> GET / ""
+[2021-5-6 14:25:52] 💌 << 200 OK
+[2021-5-6 14:25:54] 📨 >> GET /category/4 ""
+[2021-5-6 14:25:54] 💌 << 200 OK
+[2021-5-6 14:25:57] 📨 >> GET /post/4 ""
+[2021-5-6 14:26:12] 💌 << 200 OK
+[2021-5-6 14:26:31] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:26:31] 💌 << 200 OK
+[2021-5-6 14:26:39] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:26:39] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:26:39] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:26:43] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:26:43] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:26:43] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:26:43] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:26:43] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:26:43] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:26:45] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:26:45] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:26:45] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:26:45] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:26:45] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:26:45] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:27:13] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:27:14] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:27:14] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:27:24] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:27:24] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:27:24] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:28:13] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:28:13] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:28:13] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:29:26] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 14:29:26] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 14:29:26] 💌 << 400 BAD_REQUEST
+[2021-5-6 14:33:7] 📨 >> GET / ""
+[2021-5-6 14:33:7] 💌 << 200 OK
+[2021-5-6 14:33:9] 📨 >> GET /auth/login ""
+[2021-5-6 14:33:9] 💌 << 200 OK
+[2021-5-6 14:33:12] 📨 >> POST /auth/login {
+	"email": "Enos.Jaskolski26@yahoo.com",
+	"password": "RWA46lrquT87flS",
+	"remember": "remember"
+}
+[2021-5-6 14:33:12] 💌 << 303 SEE_OTHER
+[2021-5-6 14:33:12] 📨 >> GET /user/14 ""
+[2021-5-6 14:33:12] 💌 << 200 OK
+[2021-5-6 14:33:13] 📨 >> GET / ""
+[2021-5-6 14:33:13] 💌 << 200 OK
+[2021-5-6 14:33:14] 📨 >> GET /category/6 ""
+[2021-5-6 14:33:15] 💌 << 200 OK
+[2021-5-6 14:33:15] 📨 >> GET /post/6 ""
+[2021-5-6 14:34:40] 📨 >> GET / ""
+[2021-5-6 14:34:40] 💌 << 200 OK
+[2021-5-6 14:34:41] 📨 >> GET /auth/login ""
+[2021-5-6 14:34:41] 💌 << 200 OK
+[2021-5-6 14:34:43] 📨 >> POST /auth/login {
+	"email": "Ole89@yahoo.com",
+	"password": "MztUvFSM_r5rcB0",
+	"remember": "remember"
+}
+[2021-5-6 14:34:43] 💌 << 303 SEE_OTHER
+[2021-5-6 14:34:43] 📨 >> GET /user/20 ""
+[2021-5-6 14:34:43] 💌 << 200 OK
+[2021-5-6 14:34:44] 📨 >> GET / ""
+[2021-5-6 14:34:44] 💌 << 200 OK
+[2021-5-6 14:34:45] 📨 >> GET /category/8 ""
+[2021-5-6 14:34:45] 💌 << 200 OK
+[2021-5-6 14:34:46] 📨 >> GET /post/8 ""
+[2021-5-6 14:37:46] 📨 >> GET / ""
+[2021-5-6 14:37:46] 💌 << 200 OK
+[2021-5-6 14:37:47] 📨 >> GET /auth/login ""
+[2021-5-6 14:37:47] 💌 << 200 OK
+[2021-5-6 14:37:49] 📨 >> POST /auth/login {
+	"email": "Alexane55@yahoo.com",
+	"password": "jV9FmyErdqV8n_C",
+	"remember": "remember"
+}
+[2021-5-6 14:37:49] 💌 << 303 SEE_OTHER
+[2021-5-6 14:37:49] 📨 >> GET /user/29 ""
+[2021-5-6 14:37:49] 💌 << 200 OK
+[2021-5-6 14:37:50] 📨 >> GET / ""
+[2021-5-6 14:37:50] 💌 << 200 OK
+[2021-5-6 14:37:52] 📨 >> GET /category/11 ""
+[2021-5-6 14:37:52] 💌 << 200 OK
+[2021-5-6 14:37:53] 📨 >> GET /post/10 ""
+[2021-5-6 14:40:55] 📨 >> GET / ""
+[2021-5-6 14:40:55] 💌 << 200 OK
+[2021-5-6 14:40:56] 📨 >> GET /auth/login ""
+[2021-5-6 14:40:56] 💌 << 200 OK
+[2021-5-6 14:40:57] 📨 >> POST /auth/login {
+	"email": "Consuelo51@yahoo.com",
+	"password": "e2aNnjhEvfigxsM",
+	"remember": "remember"
+}
+[2021-5-6 14:40:57] 💌 << 303 SEE_OTHER
+[2021-5-6 14:40:57] 📨 >> GET /user/41 ""
+[2021-5-6 14:40:58] 💌 << 200 OK
+[2021-5-6 14:40:58] 📨 >> GET / ""
+[2021-5-6 14:40:58] 💌 << 200 OK
+[2021-5-6 14:40:59] 📨 >> GET /category/15 ""
+[2021-5-6 14:40:59] 💌 << 200 OK
+[2021-5-6 14:41:0] 📨 >> GET /post/14 ""
+[2021-5-6 14:41:10] 💌 << undefined undefined
+[2021-5-6 15:3:38] 📨 >> GET / ""
+[2021-5-6 15:3:39] 💌 << 200 OK
+[2021-5-6 15:3:41] 📨 >> GET /auth/login ""
+[2021-5-6 15:3:41] 💌 << 200 OK
+[2021-5-6 15:3:43] 📨 >> POST /auth/login {
+	"email": "Dorothy.Lindgren@gmail.com",
+	"password": "TPb3DLrGQw1_Raq",
+	"remember": "remember"
+}
+[2021-5-6 15:3:43] 💌 << 303 SEE_OTHER
+[2021-5-6 15:3:43] 📨 >> GET /user/47 ""
+[2021-5-6 15:3:43] 💌 << 200 OK
+[2021-5-6 15:3:44] 📨 >> GET / ""
+[2021-5-6 15:3:44] 💌 << 200 OK
+[2021-5-6 15:3:46] 📨 >> GET /category/17 ""
+[2021-5-6 15:3:46] 💌 << 200 OK
+[2021-5-6 15:3:47] 📨 >> GET /post/16 ""
+[2021-5-6 15:3:58] 💌 << 200 OK
+[2021-5-6 15:6:5] 📨 >> GET / ""
+[2021-5-6 15:6:5] 💌 << 200 OK
+[2021-5-6 15:6:6] 📨 >> GET /auth/login ""
+[2021-5-6 15:6:6] 💌 << 200 OK
+[2021-5-6 15:6:8] 📨 >> POST /auth/login {
+	"email": "Frederick_Veum@hotmail.com",
+	"password": "FIjxRNgplDx1ARc",
+	"remember": "remember"
+}
+[2021-5-6 15:6:8] 💌 << 303 SEE_OTHER
+[2021-5-6 15:6:8] 📨 >> GET /user/1 ""
+[2021-5-6 15:6:9] 💌 << 200 OK
+[2021-5-6 15:6:9] 📨 >> GET / ""
+[2021-5-6 15:6:9] 💌 << 200 OK
+[2021-5-6 15:6:10] 📨 >> GET /category/2 ""
+[2021-5-6 15:6:11] 💌 << 200 OK
+[2021-5-6 15:6:13] 📨 >> GET /post/2 ""
+[2021-5-6 15:6:31] 💌 << 200 OK
+[2021-5-6 15:8:14] 📨 >> GET / ""
+[2021-5-6 15:8:14] 💌 << 200 OK
+[2021-5-6 15:8:15] 📨 >> GET /auth/login ""
+[2021-5-6 15:8:15] 💌 << 200 OK
+[2021-5-6 15:8:17] 📨 >> POST /auth/login {
+	"email": "Brain62@yahoo.com",
+	"password": "kDPjc4qVaSufPDA",
+	"remember": "remember"
+}
+[2021-5-6 15:8:17] 💌 << 303 SEE_OTHER
+[2021-5-6 15:8:17] 📨 >> GET /user/1 ""
+[2021-5-6 15:8:17] 💌 << 200 OK
+[2021-5-6 15:8:18] 📨 >> GET / ""
+[2021-5-6 15:8:18] 💌 << 200 OK
+[2021-5-6 15:8:19] 📨 >> GET /category/2 ""
+[2021-5-6 15:8:19] 💌 << 200 OK
+[2021-5-6 15:8:21] 📨 >> GET /post/2 ""
+[2021-5-6 15:8:39] 💌 << 200 OK
+[2021-5-6 15:12:23] 📨 >> GET / ""
+[2021-5-6 15:12:23] 💌 << 200 OK
+[2021-5-6 15:12:23] 📨 >> GET /auth/login ""
+[2021-5-6 15:12:23] 💌 << 200 OK
+[2021-5-6 15:12:25] 📨 >> POST /auth/login {
+	"email": "Hadley.Mitchell30@yahoo.com",
+	"password": "o5mClvXH73VyBko",
+	"remember": "remember"
+}
+[2021-5-6 15:12:25] 💌 << 303 SEE_OTHER
+[2021-5-6 15:12:25] 📨 >> GET /user/7 ""
+[2021-5-6 15:12:25] 💌 << 200 OK
+[2021-5-6 15:12:26] 📨 >> GET / ""
+[2021-5-6 15:12:26] 💌 << 200 OK
+[2021-5-6 15:12:26] 📨 >> GET /category/4 ""
+[2021-5-6 15:12:27] 💌 << 200 OK
+[2021-5-6 15:12:27] 📨 >> GET /post/4 ""
+[2021-5-6 15:16:2] 💌 << 200 OK
+[2021-5-6 15:16:34] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 15:16:34] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:16:34] 💌 << 400 BAD_REQUEST
+[2021-5-6 15:16:34] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 15:16:34] CommentException: Cannot bookmark Comment: Comment has already been bookmarked.
+    at Comment.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:48:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:16:35] 💌 << 400 BAD_REQUEST
+[2021-5-6 15:18:59] 📨 >> GET / ""
+[2021-5-6 15:18:59] 💌 << 200 OK
+[2021-5-6 15:18:59] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 15:18:59] CommentException: Cannot bookmark Comment: You must be logged in.
+    at CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:58:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:18:59] 💌 << 401 UNAUTHORIZED
+[2021-5-6 15:19:9] 📨 >> GET /auth/login ""
+[2021-5-6 15:19:9] 💌 << 200 OK
+[2021-5-6 15:19:20] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-6 15:19:20] AuthException: Cannot log in: Invalid credentials.
+    at AuthController.login (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/AuthController.js:61:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:19:20] 💌 << 400 BAD_REQUEST
+[2021-5-6 15:19:25] 📨 >> GET /auth/login ""
+[2021-5-6 15:19:25] 💌 << 200 OK
+[2021-5-6 15:19:27] 📨 >> GET /auth/register ""
+[2021-5-6 15:19:27] 💌 << 200 OK
+[2021-5-6 15:19:37] 📨 >> POST /user {
+	"username": "111",
+	"email": "111",
+	"password": "111"
+}
+[2021-5-6 15:19:37] 💌 << 303 SEE_OTHER
+[2021-5-6 15:19:37] 📨 >> GET /auth/login ""
+[2021-5-6 15:19:37] 💌 << 200 OK
+[2021-5-6 15:19:42] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-6 15:19:42] 💌 << 303 SEE_OTHER
+[2021-5-6 15:19:42] 📨 >> GET /user/1 ""
+[2021-5-6 15:19:42] 💌 << 200 OK
+[2021-5-6 15:19:47] 📨 >> GET / ""
+[2021-5-6 15:19:47] 💌 << 200 OK
+[2021-5-6 15:19:58] 📨 >> POST /category {
+	"userId": "1",
+	"title": "11111",
+	"description": "1111111"
+}
+[2021-5-6 15:19:58] 💌 << 303 SEE_OTHER
+[2021-5-6 15:19:58] 📨 >> GET // ""
+[2021-5-6 15:19:58] 💌 << 200 OK
+[2021-5-6 15:20:2] 📨 >> GET /category/1 ""
+[2021-5-6 15:20:2] 💌 << 200 OK
+[2021-5-6 15:20:11] 📨 >> POST /post {
+	"userId": "1",
+	"categoryId": "1",
+	"title": "111111",
+	"type": "Text",
+	"content": "1111111111111111111"
+}
+[2021-5-6 15:20:12] 💌 << 303 SEE_OTHER
+[2021-5-6 15:20:12] 📨 >> GET /category/1 ""
+[2021-5-6 15:20:12] 💌 << 200 OK
+[2021-5-6 15:20:18] 📨 >> GET /post/1 ""
+[2021-5-6 15:20:30] 💌 << 200 OK
+[2021-5-6 15:20:47] 📨 >> POST /comment {
+	"userId": "1",
+	"postId": "1",
+	"postTitle": "111111",
+	"content": "11111111111111111111111111"
+}
+[2021-5-6 15:20:47] 💌 << 303 SEE_OTHER
+[2021-5-6 15:20:47] 📨 >> GET /post/1 ""
+[2021-5-6 15:21:4] 💌 << 200 OK
+[2021-5-6 15:21:18] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:21:18] 💌 << 200 OK
+[2021-5-6 15:24:14] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:24:14] CommentException: Cannot bookmark Comment: You must be logged in.
+    at CommentController.bookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:58:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:24:14] 💌 << 401 UNAUTHORIZED
+[2021-5-6 15:31:0] 📨 >> GET / ""
+[2021-5-6 15:31:0] 💌 << 200 OK
+[2021-5-6 15:31:17] 📨 >> GET /auth/login ""
+[2021-5-6 15:31:17] 💌 << 200 OK
+[2021-5-6 15:31:34] 📨 >> POST /auth/login {
+	"email": "111",
+	"password": "111",
+	"remember": "remember"
+}
+[2021-5-6 15:31:34] 💌 << 303 SEE_OTHER
+[2021-5-6 15:31:34] 📨 >> GET /user/1 ""
+[2021-5-6 15:31:34] 💌 << 200 OK
+[2021-5-6 15:31:42] 📨 >> GET / ""
+[2021-5-6 15:31:42] 💌 << 200 OK
+[2021-5-6 15:31:51] 📨 >> POST /category {
+	"userId": "1",
+	"title": "1111111111111111111",
+	"description": "11111111111111111111"
+}
+[2021-5-6 15:31:51] 💌 << 303 SEE_OTHER
+[2021-5-6 15:31:51] 📨 >> GET // ""
+[2021-5-6 15:31:51] 💌 << 200 OK
+[2021-5-6 15:31:53] 📨 >> GET /category/2 ""
+[2021-5-6 15:31:53] 💌 << 200 OK
+[2021-5-6 15:32:0] 📨 >> POST /post {
+	"userId": "1",
+	"categoryId": "2",
+	"title": "1111111111111111",
+	"type": "Text",
+	"content": "11111111111111111111111111111111111111"
+}
+[2021-5-6 15:32:0] 💌 << 303 SEE_OTHER
+[2021-5-6 15:32:0] 📨 >> GET /category/2 ""
+[2021-5-6 15:32:1] 💌 << 200 OK
+[2021-5-6 15:32:4] 📨 >> GET /post/2 ""
+[2021-5-6 15:32:11] 💌 << 200 OK
+[2021-5-6 15:32:25] 📨 >> POST /comment {
+	"userId": "1",
+	"postId": "2",
+	"postTitle": "1111111111111111",
+	"content": "111111111111111111111111111111111111111111111111"
+}
+[2021-5-6 15:32:26] 💌 << 303 SEE_OTHER
+[2021-5-6 15:32:26] 📨 >> GET /post/2 ""
+[2021-5-6 15:32:31] 💌 << 200 OK
+[2021-5-6 15:32:47] 📨 >> GET /comment/2/bookmark ""
+[2021-5-6 15:33:32] 💌 << 200 OK
+[2021-5-6 15:34:3] 📨 >> GET /comment/2/unbookmark ""
+[2021-5-6 15:34:36] 💌 << 200 OK
+[2021-5-6 15:35:59] 📨 >> GET / ""
+[2021-5-6 15:35:59] 💌 << 200 OK
+[2021-5-6 15:35:59] 📨 >> GET /auth/login ""
+[2021-5-6 15:35:59] 💌 << 200 OK
+[2021-5-6 15:35:59] 📨 >> POST /auth/login {
+	"email": "Tod.OConnell@yahoo.com",
+	"password": "OIqBwFLQjc3YUd7",
+	"remember": "remember"
+}
+[2021-5-6 15:35:59] 💌 << 303 SEE_OTHER
+[2021-5-6 15:35:59] 📨 >> GET /user/2 ""
+[2021-5-6 15:35:59] 💌 << 200 OK
+[2021-5-6 15:35:59] 📨 >> GET / ""
+[2021-5-6 15:35:59] 💌 << 200 OK
+[2021-5-6 15:35:59] 📨 >> GET /category/4 ""
+[2021-5-6 15:36:0] 💌 << 200 OK
+[2021-5-6 15:36:0] 📨 >> GET /post/4 ""
+[2021-5-6 15:36:36] PostException: Cannot retrieve Post: Post does not exist with ID 4.
+    at PostController.show (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:115:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:36:36] 💌 << 400 BAD_REQUEST
+[2021-5-6 15:37:1] 📨 >> GET / ""
+[2021-5-6 15:37:1] 💌 << 200 OK
+[2021-5-6 15:37:1] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:1] 💌 << 200 OK
+[2021-5-6 15:37:1] 📨 >> POST /auth/login {
+	"email": "Jamil_Feest83@yahoo.com",
+	"password": "IDfzNm0F8VHhEB8",
+	"remember": "remember"
+}
+[2021-5-6 15:37:1] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:1] 📨 >> GET /user/1 ""
+[2021-5-6 15:37:1] 💌 << 200 OK
+[2021-5-6 15:37:1] 📨 >> GET / ""
+[2021-5-6 15:37:2] 💌 << 200 OK
+[2021-5-6 15:37:2] 📨 >> GET /category/2 ""
+[2021-5-6 15:37:2] 💌 << 200 OK
+[2021-5-6 15:37:2] 📨 >> GET /post/2 ""
+[2021-5-6 15:37:2] 💌 << 200 OK
+[2021-5-6 15:37:22] 📨 >> GET / ""
+[2021-5-6 15:37:22] 💌 << 200 OK
+[2021-5-6 15:37:22] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:22] 💌 << 200 OK
+[2021-5-6 15:37:23] 📨 >> POST /auth/login {
+	"email": "Drake_Fay49@gmail.com",
+	"password": "FQOY5ifO4FITg_A",
+	"remember": "remember"
+}
+[2021-5-6 15:37:23] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:23] 📨 >> GET /user/1 ""
+[2021-5-6 15:37:23] 💌 << 200 OK
+[2021-5-6 15:37:23] 📨 >> GET / ""
+[2021-5-6 15:37:23] 💌 << 200 OK
+[2021-5-6 15:37:23] 📨 >> GET /category/1 ""
+[2021-5-6 15:37:23] 💌 << 200 OK
+[2021-5-6 15:37:23] 📨 >> GET /post/1 ""
+[2021-5-6 15:37:23] 💌 << 200 OK
+[2021-5-6 15:37:23] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:37:23] 📨 >> GET /user/1 ""
+[2021-5-6 15:37:23] 💌 << 200 OK
+[2021-5-6 15:37:24] 💌 << 200 OK
+[2021-5-6 15:37:24] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:37:24] 💌 << 200 OK
+[2021-5-6 15:37:34] 📨 >> GET / ""
+[2021-5-6 15:37:34] 💌 << 200 OK
+[2021-5-6 15:37:34] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:34] 💌 << 200 OK
+[2021-5-6 15:37:34] 📨 >> POST /auth/login {
+	"email": "Bertram79@yahoo.com",
+	"password": "B5RlhdnsfepxXR1",
+	"remember": "remember"
+}
+[2021-5-6 15:37:34] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:34] 📨 >> GET /user/1 ""
+[2021-5-6 15:37:34] 💌 << 200 OK
+[2021-5-6 15:37:34] 📨 >> GET / ""
+[2021-5-6 15:37:34] 💌 << 200 OK
+[2021-5-6 15:37:34] 📨 >> GET /category/1 ""
+[2021-5-6 15:37:34] 💌 << 200 OK
+[2021-5-6 15:37:35] 📨 >> GET /post/1 ""
+[2021-5-6 15:37:35] 💌 << 200 OK
+[2021-5-6 15:37:35] 📨 >> GET /post/1/unbookmark ""
+[2021-5-6 15:37:35] 📨 >> GET /user/1 ""
+[2021-5-6 15:37:35] 💌 << 200 OK
+[2021-5-6 15:37:35] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:37:35] 💌 << 200 OK
+[2021-5-6 15:37:35] 💌 << 200 OK
+[2021-5-6 15:37:40] 📨 >> GET / ""
+[2021-5-6 15:37:40] 💌 << 200 OK
+[2021-5-6 15:37:40] 📨 >> GET /category/1 ""
+[2021-5-6 15:37:40] 💌 << 200 OK
+[2021-5-6 15:37:40] 📨 >> GET /post/1 ""
+[2021-5-6 15:37:40] 💌 << 200 OK
+[2021-5-6 15:37:46] 📨 >> GET / ""
+[2021-5-6 15:37:46] 💌 << 200 OK
+[2021-5-6 15:37:46] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:46] 💌 << 200 OK
+[2021-5-6 15:37:46] 📨 >> POST /auth/login {
+	"email": "Donato_Ward12@hotmail.com",
+	"password": "hGcrzrM91UQOqFF",
+	"remember": "remember"
+}
+[2021-5-6 15:37:46] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:46] 📨 >> GET /user/7 ""
+[2021-5-6 15:37:46] 💌 << 200 OK
+[2021-5-6 15:37:47] 📨 >> GET / ""
+[2021-5-6 15:37:47] 💌 << 200 OK
+[2021-5-6 15:37:47] 📨 >> GET /category/1 ""
+[2021-5-6 15:37:47] 💌 << 200 OK
+[2021-5-6 15:37:47] 📨 >> GET /post/1 ""
+[2021-5-6 15:37:47] 💌 << 200 OK
+[2021-5-6 15:37:47] 📨 >> GET / ""
+[2021-5-6 15:37:47] 💌 << 200 OK
+[2021-5-6 15:37:47] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:47] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:47] 📨 >> GET // ""
+[2021-5-6 15:37:47] 💌 << 200 OK
+[2021-5-6 15:37:48] 📨 >> GET / ""
+[2021-5-6 15:37:48] 💌 << 200 OK
+[2021-5-6 15:37:48] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:48] 💌 << 200 OK
+[2021-5-6 15:37:48] 📨 >> POST /auth/login {
+	"email": "Minerva.Lubowitz94@yahoo.com",
+	"password": "s6oJjAYb5m2Sack",
+	"remember": "remember"
+}
+[2021-5-6 15:37:48] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:48] 📨 >> GET /user/8 ""
+[2021-5-6 15:37:48] 💌 << 200 OK
+[2021-5-6 15:37:48] 📨 >> GET / ""
+[2021-5-6 15:37:48] 💌 << 200 OK
+[2021-5-6 15:37:48] 📨 >> GET /category/1 ""
+[2021-5-6 15:37:48] 💌 << 200 OK
+[2021-5-6 15:37:49] 📨 >> GET /post/1 ""
+[2021-5-6 15:37:49] 💌 << 200 OK
+[2021-5-6 15:37:49] 📨 >> GET / ""
+[2021-5-6 15:37:49] 💌 << 200 OK
+[2021-5-6 15:37:49] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:49] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:49] 📨 >> GET // ""
+[2021-5-6 15:37:49] 💌 << 200 OK
+[2021-5-6 15:37:49] 📨 >> GET / ""
+[2021-5-6 15:37:49] 💌 << 200 OK
+[2021-5-6 15:37:50] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:50] 💌 << 200 OK
+[2021-5-6 15:37:50] 📨 >> POST /auth/login {
+	"email": "Anastasia87@hotmail.com",
+	"password": "q20ZckdRZLJzfU4",
+	"remember": "remember"
+}
+[2021-5-6 15:37:50] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:50] 📨 >> GET /user/9 ""
+[2021-5-6 15:37:50] 💌 << 200 OK
+[2021-5-6 15:37:50] 📨 >> GET / ""
+[2021-5-6 15:37:50] 💌 << 200 OK
+[2021-5-6 15:37:50] 📨 >> GET /category/1 ""
+[2021-5-6 15:37:50] 💌 << 200 OK
+[2021-5-6 15:37:50] 📨 >> GET /post/1 ""
+[2021-5-6 15:37:50] 💌 << 200 OK
+[2021-5-6 15:37:50] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:37:50] 📨 >> GET / ""
+[2021-5-6 15:37:51] 💌 << 200 OK
+[2021-5-6 15:37:51] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:51] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:51] 📨 >> GET // ""
+[2021-5-6 15:37:51] 💌 << 200 OK
+[2021-5-6 15:37:51] 💌 << 200 OK
+[2021-5-6 15:37:51] 📨 >> GET / ""
+[2021-5-6 15:37:51] 💌 << 200 OK
+[2021-5-6 15:37:51] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:51] 💌 << 200 OK
+[2021-5-6 15:37:52] 📨 >> POST /auth/login {
+	"email": "Bryce58@yahoo.com",
+	"password": "Wl4tt5TG2jkGQH7",
+	"remember": "remember"
+}
+[2021-5-6 15:37:52] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:52] 📨 >> GET /user/10 ""
+[2021-5-6 15:37:52] 💌 << 200 OK
+[2021-5-6 15:37:52] 📨 >> GET / ""
+[2021-5-6 15:37:52] 💌 << 200 OK
+[2021-5-6 15:37:52] 📨 >> GET /category/1 ""
+[2021-5-6 15:37:52] 💌 << 200 OK
+[2021-5-6 15:37:52] 📨 >> GET /post/1 ""
+[2021-5-6 15:37:52] 💌 << 200 OK
+[2021-5-6 15:37:52] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:37:52] 📨 >> GET / ""
+[2021-5-6 15:37:52] 💌 << 200 OK
+[2021-5-6 15:37:52] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:52] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:52] 📨 >> GET // ""
+[2021-5-6 15:37:53] 💌 << 200 OK
+[2021-5-6 15:37:53] 💌 << 200 OK
+[2021-5-6 15:37:53] 📨 >> GET / ""
+[2021-5-6 15:37:53] 💌 << 200 OK
+[2021-5-6 15:37:53] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:53] 💌 << 200 OK
+[2021-5-6 15:37:53] 📨 >> POST /auth/login {
+	"email": "Hugh42@hotmail.com",
+	"password": "mgmz_hUKEv42LfU",
+	"remember": "remember"
+}
+[2021-5-6 15:37:53] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:53] 📨 >> GET /user/11 ""
+[2021-5-6 15:37:53] 💌 << 200 OK
+[2021-5-6 15:37:53] 📨 >> GET / ""
+[2021-5-6 15:37:53] 💌 << 200 OK
+[2021-5-6 15:37:54] 📨 >> GET /category/1 ""
+[2021-5-6 15:37:54] 💌 << 200 OK
+[2021-5-6 15:37:54] 📨 >> GET /post/1 ""
+[2021-5-6 15:37:54] 💌 << 200 OK
+[2021-5-6 15:37:54] 📨 >> GET / ""
+[2021-5-6 15:37:54] 💌 << 200 OK
+[2021-5-6 15:37:54] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:54] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:54] 📨 >> GET // ""
+[2021-5-6 15:37:54] 💌 << 200 OK
+[2021-5-6 15:37:54] 📨 >> GET / ""
+[2021-5-6 15:37:54] 💌 << 200 OK
+[2021-5-6 15:37:54] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:54] 💌 << 200 OK
+[2021-5-6 15:37:55] 📨 >> POST /auth/login {
+	"email": "Donato_Ward12@hotmail.com",
+	"password": "hGcrzrM91UQOqFF",
+	"remember": "remember"
+}
+[2021-5-6 15:37:55] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:55] 📨 >> GET /user/7 ""
+[2021-5-6 15:37:55] 💌 << 200 OK
+[2021-5-6 15:37:55] 📨 >> GET /user/7/postbookmarks ""
+[2021-5-6 15:37:55] 💌 << 200 OK
+[2021-5-6 15:37:55] 📨 >> GET / ""
+[2021-5-6 15:37:55] 💌 << 200 OK
+[2021-5-6 15:37:55] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:55] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:55] 📨 >> GET // ""
+[2021-5-6 15:37:55] 💌 << 200 OK
+[2021-5-6 15:37:55] 📨 >> GET / ""
+[2021-5-6 15:37:55] 💌 << 200 OK
+[2021-5-6 15:37:55] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:55] 💌 << 200 OK
+[2021-5-6 15:37:56] 📨 >> POST /auth/login {
+	"email": "Minerva.Lubowitz94@yahoo.com",
+	"password": "s6oJjAYb5m2Sack",
+	"remember": "remember"
+}
+[2021-5-6 15:37:56] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:56] 📨 >> GET /user/8 ""
+[2021-5-6 15:37:56] 💌 << 200 OK
+[2021-5-6 15:37:56] 📨 >> GET /user/8/postbookmarks ""
+[2021-5-6 15:37:56] 💌 << 200 OK
+[2021-5-6 15:37:56] 📨 >> GET / ""
+[2021-5-6 15:37:56] 💌 << 200 OK
+[2021-5-6 15:37:56] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:56] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:56] 📨 >> GET // ""
+[2021-5-6 15:37:56] 💌 << 200 OK
+[2021-5-6 15:37:56] 📨 >> GET / ""
+[2021-5-6 15:37:56] 💌 << 200 OK
+[2021-5-6 15:37:56] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:56] 💌 << 200 OK
+[2021-5-6 15:37:56] 📨 >> POST /auth/login {
+	"email": "Anastasia87@hotmail.com",
+	"password": "q20ZckdRZLJzfU4",
+	"remember": "remember"
+}
+[2021-5-6 15:37:56] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:56] 📨 >> GET /user/9 ""
+[2021-5-6 15:37:56] 💌 << 200 OK
+[2021-5-6 15:37:57] 📨 >> GET /user/9/postbookmarks ""
+[2021-5-6 15:37:57] 💌 << 200 OK
+[2021-5-6 15:37:57] 📨 >> GET / ""
+[2021-5-6 15:37:57] 💌 << 200 OK
+[2021-5-6 15:37:57] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:57] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:57] 📨 >> GET // ""
+[2021-5-6 15:37:57] 💌 << 200 OK
+[2021-5-6 15:37:57] 📨 >> GET / ""
+[2021-5-6 15:37:57] 💌 << 200 OK
+[2021-5-6 15:37:57] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:57] 💌 << 200 OK
+[2021-5-6 15:37:57] 📨 >> POST /auth/login {
+	"email": "Bryce58@yahoo.com",
+	"password": "Wl4tt5TG2jkGQH7",
+	"remember": "remember"
+}
+[2021-5-6 15:37:57] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:57] 📨 >> GET /user/10 ""
+[2021-5-6 15:37:57] 💌 << 200 OK
+[2021-5-6 15:37:58] 📨 >> GET /user/10/postbookmarks ""
+[2021-5-6 15:37:58] 💌 << 200 OK
+[2021-5-6 15:37:58] 📨 >> GET / ""
+[2021-5-6 15:37:58] 💌 << 200 OK
+[2021-5-6 15:37:58] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:58] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:58] 📨 >> GET // ""
+[2021-5-6 15:37:58] 💌 << 200 OK
+[2021-5-6 15:37:58] 📨 >> GET / ""
+[2021-5-6 15:37:58] 💌 << 200 OK
+[2021-5-6 15:37:58] 📨 >> GET /auth/login ""
+[2021-5-6 15:37:58] 💌 << 200 OK
+[2021-5-6 15:37:58] 📨 >> POST /auth/login {
+	"email": "Hugh42@hotmail.com",
+	"password": "mgmz_hUKEv42LfU",
+	"remember": "remember"
+}
+[2021-5-6 15:37:58] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:58] 📨 >> GET /user/11 ""
+[2021-5-6 15:37:58] 💌 << 200 OK
+[2021-5-6 15:37:58] 📨 >> GET /user/11/postbookmarks ""
+[2021-5-6 15:37:58] 💌 << 200 OK
+[2021-5-6 15:37:58] 📨 >> GET / ""
+[2021-5-6 15:37:59] 💌 << 200 OK
+[2021-5-6 15:37:59] 📨 >> GET /auth/logout ""
+[2021-5-6 15:37:59] 💌 << 303 SEE_OTHER
+[2021-5-6 15:37:59] 📨 >> GET // ""
+[2021-5-6 15:37:59] 💌 << 200 OK
+[2021-5-6 15:38:5] 📨 >> GET / ""
+[2021-5-6 15:38:5] 💌 << 200 OK
+[2021-5-6 15:38:5] 📨 >> GET /auth/login ""
+[2021-5-6 15:38:5] 💌 << 200 OK
+[2021-5-6 15:38:6] 📨 >> POST /auth/login {
+	"email": "Delia92@gmail.com",
+	"password": "QwRk3hw1hL6eoFL",
+	"remember": "remember"
+}
+[2021-5-6 15:38:6] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:6] 📨 >> GET /user/1 ""
+[2021-5-6 15:38:6] 💌 << 200 OK
+[2021-5-6 15:38:6] 📨 >> GET / ""
+[2021-5-6 15:38:6] 💌 << 200 OK
+[2021-5-6 15:38:6] 📨 >> GET /category/2 ""
+[2021-5-6 15:38:6] 💌 << 200 OK
+[2021-5-6 15:38:6] 📨 >> GET /post/2 ""
+[2021-5-6 15:38:6] 💌 << 200 OK
+[2021-5-6 15:38:6] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:38:6] 📨 >> GET /user/1 ""
+[2021-5-6 15:38:6] 💌 << 200 OK
+[2021-5-6 15:38:6] 💌 << 200 OK
+[2021-5-6 15:38:7] 📨 >> GET /user/1/commentbookmarks ""
+[2021-5-6 15:38:7] 💌 << 200 OK
+[2021-5-6 15:38:14] 📨 >> GET / ""
+[2021-5-6 15:38:14] 💌 << 200 OK
+[2021-5-6 15:38:15] 📨 >> GET /auth/login ""
+[2021-5-6 15:38:15] 💌 << 200 OK
+[2021-5-6 15:38:15] 📨 >> POST /auth/login {
+	"email": "Twila79@hotmail.com",
+	"password": "gdBkRP_4UG7BX2Q",
+	"remember": "remember"
+}
+[2021-5-6 15:38:15] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:15] 📨 >> GET /user/1 ""
+[2021-5-6 15:38:15] 💌 << 200 OK
+[2021-5-6 15:38:15] 📨 >> GET / ""
+[2021-5-6 15:38:15] 💌 << 200 OK
+[2021-5-6 15:38:15] 📨 >> GET /category/2 ""
+[2021-5-6 15:38:15] 💌 << 200 OK
+[2021-5-6 15:38:15] 📨 >> GET /post/2 ""
+[2021-5-6 15:38:16] 💌 << 200 OK
+[2021-5-6 15:38:21] 📨 >> GET / ""
+[2021-5-6 15:38:21] 💌 << 200 OK
+[2021-5-6 15:38:21] 📨 >> GET /category/1 ""
+[2021-5-6 15:38:21] 💌 << 200 OK
+[2021-5-6 15:38:21] 📨 >> GET /post/1 ""
+[2021-5-6 15:38:21] 💌 << 200 OK
+[2021-5-6 15:38:27] 📨 >> GET / ""
+[2021-5-6 15:38:27] 💌 << 200 OK
+[2021-5-6 15:38:27] 📨 >> GET /auth/login ""
+[2021-5-6 15:38:27] 💌 << 200 OK
+[2021-5-6 15:38:27] 📨 >> POST /auth/login {
+	"email": "Casey_Will@yahoo.com",
+	"password": "3JpRm1MXCM65l7k",
+	"remember": "remember"
+}
+[2021-5-6 15:38:27] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:27] 📨 >> GET /user/7 ""
+[2021-5-6 15:38:27] 💌 << 200 OK
+[2021-5-6 15:38:27] 📨 >> GET / ""
+[2021-5-6 15:38:27] 💌 << 200 OK
+[2021-5-6 15:38:28] 📨 >> GET /category/2 ""
+[2021-5-6 15:38:28] 💌 << 200 OK
+[2021-5-6 15:38:28] 📨 >> GET /post/2 ""
+[2021-5-6 15:38:28] 💌 << 200 OK
+[2021-5-6 15:38:28] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:38:28] 📨 >> GET / ""
+[2021-5-6 15:38:28] 💌 << 200 OK
+[2021-5-6 15:38:28] 📨 >> GET /auth/logout ""
+[2021-5-6 15:38:28] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:28] 📨 >> GET // ""
+[2021-5-6 15:38:28] 💌 << 200 OK
+[2021-5-6 15:38:28] 💌 << 200 OK
+[2021-5-6 15:38:29] 📨 >> GET / ""
+[2021-5-6 15:38:29] 💌 << 200 OK
+[2021-5-6 15:38:29] 📨 >> GET /auth/login ""
+[2021-5-6 15:38:29] 💌 << 200 OK
+[2021-5-6 15:38:29] 📨 >> POST /auth/login {
+	"email": "Hudson_Kautzer77@yahoo.com",
+	"password": "3EQ3taGS_xY8r7V",
+	"remember": "remember"
+}
+[2021-5-6 15:38:29] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:29] 📨 >> GET /user/8 ""
+[2021-5-6 15:38:29] 💌 << 200 OK
+[2021-5-6 15:38:29] 📨 >> GET / ""
+[2021-5-6 15:38:29] 💌 << 200 OK
+[2021-5-6 15:38:29] 📨 >> GET /category/2 ""
+[2021-5-6 15:38:29] 💌 << 200 OK
+[2021-5-6 15:38:29] 📨 >> GET /post/2 ""
+[2021-5-6 15:38:29] 💌 << 200 OK
+[2021-5-6 15:38:30] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:38:30] 📨 >> GET / ""
+[2021-5-6 15:38:30] 💌 << 200 OK
+[2021-5-6 15:38:30] 📨 >> GET /auth/logout ""
+[2021-5-6 15:38:30] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:30] 📨 >> GET // ""
+[2021-5-6 15:38:30] 💌 << 200 OK
+[2021-5-6 15:38:30] 💌 << 200 OK
+[2021-5-6 15:38:30] 📨 >> GET / ""
+[2021-5-6 15:38:30] 💌 << 200 OK
+[2021-5-6 15:38:30] 📨 >> GET /auth/login ""
+[2021-5-6 15:38:30] 💌 << 200 OK
+[2021-5-6 15:38:30] 📨 >> POST /auth/login {
+	"email": "Casey_Will@yahoo.com",
+	"password": "3JpRm1MXCM65l7k",
+	"remember": "remember"
+}
+[2021-5-6 15:38:30] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:30] 📨 >> GET /user/7 ""
+[2021-5-6 15:38:30] 💌 << 200 OK
+[2021-5-6 15:38:31] 📨 >> GET /user/7/commentbookmarks ""
+[2021-5-6 15:38:31] 💌 << 200 OK
+[2021-5-6 15:38:31] 📨 >> GET / ""
+[2021-5-6 15:38:31] 💌 << 200 OK
+[2021-5-6 15:38:31] 📨 >> GET /auth/logout ""
+[2021-5-6 15:38:31] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:31] 📨 >> GET // ""
+[2021-5-6 15:38:31] 💌 << 200 OK
+[2021-5-6 15:38:31] 📨 >> GET / ""
+[2021-5-6 15:38:31] 💌 << 200 OK
+[2021-5-6 15:38:31] 📨 >> GET /auth/login ""
+[2021-5-6 15:38:31] 💌 << 200 OK
+[2021-5-6 15:38:31] 📨 >> POST /auth/login {
+	"email": "Hudson_Kautzer77@yahoo.com",
+	"password": "3EQ3taGS_xY8r7V",
+	"remember": "remember"
+}
+[2021-5-6 15:38:31] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:31] 📨 >> GET /user/8 ""
+[2021-5-6 15:38:31] 💌 << 200 OK
+[2021-5-6 15:38:32] 📨 >> GET /user/8/commentbookmarks ""
+[2021-5-6 15:38:32] 💌 << 200 OK
+[2021-5-6 15:38:32] 📨 >> GET / ""
+[2021-5-6 15:38:32] 💌 << 200 OK
+[2021-5-6 15:38:32] 📨 >> GET /auth/logout ""
+[2021-5-6 15:38:32] 💌 << 303 SEE_OTHER
+[2021-5-6 15:38:32] 📨 >> GET // ""
+[2021-5-6 15:38:32] 💌 << 200 OK
+[2021-5-6 15:40:3] 📨 >> GET / ""
+[2021-5-6 15:40:3] 💌 << 200 OK
+[2021-5-6 15:40:3] 📨 >> GET /auth/login ""
+[2021-5-6 15:40:3] 💌 << 200 OK
+[2021-5-6 15:40:3] 📨 >> POST /auth/login {
+	"email": "Holly_Russel@hotmail.com",
+	"password": "X8hPTOaOq7vOWsg",
+	"remember": "remember"
+}
+[2021-5-6 15:40:3] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:3] 📨 >> GET /user/1 ""
+[2021-5-6 15:40:3] 💌 << 200 OK
+[2021-5-6 15:40:3] 📨 >> GET / ""
+[2021-5-6 15:40:3] 💌 << 200 OK
+[2021-5-6 15:40:3] 📨 >> GET /category/1 ""
+[2021-5-6 15:40:3] 💌 << 200 OK
+[2021-5-6 15:40:4] 📨 >> GET /post/1 ""
+[2021-5-6 15:40:4] 💌 << 200 OK
+[2021-5-6 15:40:4] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:40:4] 📨 >> GET /user/1 ""
+[2021-5-6 15:40:4] 💌 << 200 OK
+[2021-5-6 15:40:4] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:40:4] 💌 << 200 OK
+[2021-5-6 15:40:4] 💌 << 200 OK
+[2021-5-6 15:40:11] 📨 >> GET / ""
+[2021-5-6 15:40:11] 💌 << 200 OK
+[2021-5-6 15:40:11] 📨 >> GET /auth/login ""
+[2021-5-6 15:40:11] 💌 << 200 OK
+[2021-5-6 15:40:11] 📨 >> POST /auth/login {
+	"email": "Flavio_King@hotmail.com",
+	"password": "wnR5bjd5ywompBV",
+	"remember": "remember"
+}
+[2021-5-6 15:40:11] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:11] 📨 >> GET /user/1 ""
+[2021-5-6 15:40:11] 💌 << 200 OK
+[2021-5-6 15:40:12] 📨 >> GET / ""
+[2021-5-6 15:40:12] 💌 << 200 OK
+[2021-5-6 15:40:12] 📨 >> GET /category/1 ""
+[2021-5-6 15:40:12] 💌 << 200 OK
+[2021-5-6 15:40:12] 📨 >> GET /post/1 ""
+[2021-5-6 15:40:12] 💌 << 200 OK
+[2021-5-6 15:40:12] 📨 >> GET /post/1/unbookmark ""
+[2021-5-6 15:40:12] 📨 >> GET /user/1 ""
+[2021-5-6 15:40:12] 💌 << 200 OK
+[2021-5-6 15:40:12] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:40:12] 💌 << 200 OK
+[2021-5-6 15:40:13] 💌 << 200 OK
+[2021-5-6 15:40:21] 📨 >> GET / ""
+[2021-5-6 15:40:21] 💌 << 200 OK
+[2021-5-6 15:40:21] 📨 >> GET /category/1 ""
+[2021-5-6 15:40:21] 💌 << 200 OK
+[2021-5-6 15:40:21] 📨 >> GET /post/1 ""
+[2021-5-6 15:40:21] 💌 << 200 OK
+[2021-5-6 15:40:27] 📨 >> GET / ""
+[2021-5-6 15:40:27] 💌 << 200 OK
+[2021-5-6 15:40:27] 📨 >> GET /auth/login ""
+[2021-5-6 15:40:27] 💌 << 200 OK
+[2021-5-6 15:40:27] 📨 >> POST /auth/login {
+	"email": "Madelyn_Hand65@gmail.com",
+	"password": "NVZ4Jy_JG66tTwn",
+	"remember": "remember"
+}
+[2021-5-6 15:40:27] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:27] 📨 >> GET /user/7 ""
+[2021-5-6 15:40:27] 💌 << 200 OK
+[2021-5-6 15:40:27] 📨 >> GET / ""
+[2021-5-6 15:40:27] 💌 << 200 OK
+[2021-5-6 15:40:27] 📨 >> GET /category/1 ""
+[2021-5-6 15:40:28] 💌 << 200 OK
+[2021-5-6 15:40:28] 📨 >> GET /post/1 ""
+[2021-5-6 15:40:28] 💌 << 200 OK
+[2021-5-6 15:40:28] 📨 >> GET / ""
+[2021-5-6 15:40:28] 💌 << 200 OK
+[2021-5-6 15:40:28] 📨 >> GET /auth/logout ""
+[2021-5-6 15:40:28] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:28] 📨 >> GET // ""
+[2021-5-6 15:40:28] 💌 << 200 OK
+[2021-5-6 15:40:29] 📨 >> GET / ""
+[2021-5-6 15:40:29] 💌 << 200 OK
+[2021-5-6 15:40:29] 📨 >> GET /auth/login ""
+[2021-5-6 15:40:29] 💌 << 200 OK
+[2021-5-6 15:40:29] 📨 >> POST /auth/login {
+	"email": "Edd.Botsford59@hotmail.com",
+	"password": "9JiXhxS9Xufg6ns",
+	"remember": "remember"
+}
+[2021-5-6 15:40:29] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:29] 📨 >> GET /user/8 ""
+[2021-5-6 15:40:29] 💌 << 200 OK
+[2021-5-6 15:40:29] 📨 >> GET / ""
+[2021-5-6 15:40:29] 💌 << 200 OK
+[2021-5-6 15:40:29] 📨 >> GET /category/1 ""
+[2021-5-6 15:40:29] 💌 << 200 OK
+[2021-5-6 15:40:30] 📨 >> GET /post/1 ""
+[2021-5-6 15:40:30] 💌 << 200 OK
+[2021-5-6 15:40:30] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:40:30] 📨 >> GET / ""
+[2021-5-6 15:40:30] 💌 << 200 OK
+[2021-5-6 15:40:30] 📨 >> GET /auth/logout ""
+[2021-5-6 15:40:30] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:30] 📨 >> GET // ""
+[2021-5-6 15:40:30] 💌 << 200 OK
+[2021-5-6 15:40:30] 💌 << 200 OK
+[2021-5-6 15:40:30] 📨 >> GET / ""
+[2021-5-6 15:40:30] 💌 << 200 OK
+[2021-5-6 15:40:30] 📨 >> GET /auth/login ""
+[2021-5-6 15:40:30] 💌 << 200 OK
+[2021-5-6 15:40:30] 📨 >> POST /auth/login {
+	"email": "Madelyn_Hand65@gmail.com",
+	"password": "NVZ4Jy_JG66tTwn",
+	"remember": "remember"
+}
+[2021-5-6 15:40:30] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:30] 📨 >> GET /user/7 ""
+[2021-5-6 15:40:30] 💌 << 200 OK
+[2021-5-6 15:40:31] 📨 >> GET /user/7/postbookmarks ""
+[2021-5-6 15:40:31] 💌 << 200 OK
+[2021-5-6 15:40:31] 📨 >> GET / ""
+[2021-5-6 15:40:31] 💌 << 200 OK
+[2021-5-6 15:40:31] 📨 >> GET /auth/logout ""
+[2021-5-6 15:40:31] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:31] 📨 >> GET // ""
+[2021-5-6 15:40:31] 💌 << 200 OK
+[2021-5-6 15:40:31] 📨 >> GET / ""
+[2021-5-6 15:40:31] 💌 << 200 OK
+[2021-5-6 15:40:31] 📨 >> GET /auth/login ""
+[2021-5-6 15:40:31] 💌 << 200 OK
+[2021-5-6 15:40:31] 📨 >> POST /auth/login {
+	"email": "Edd.Botsford59@hotmail.com",
+	"password": "9JiXhxS9Xufg6ns",
+	"remember": "remember"
+}
+[2021-5-6 15:40:31] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:31] 📨 >> GET /user/8 ""
+[2021-5-6 15:40:31] 💌 << 200 OK
+[2021-5-6 15:40:31] 📨 >> GET /user/8/postbookmarks ""
+[2021-5-6 15:40:31] 💌 << 200 OK
+[2021-5-6 15:40:31] 📨 >> GET / ""
+[2021-5-6 15:40:31] 💌 << 200 OK
+[2021-5-6 15:40:32] 📨 >> GET /auth/logout ""
+[2021-5-6 15:40:32] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:32] 📨 >> GET // ""
+[2021-5-6 15:40:32] 💌 << 200 OK
+[2021-5-6 15:40:38] 📨 >> GET / ""
+[2021-5-6 15:40:38] 💌 << 200 OK
+[2021-5-6 15:40:38] 📨 >> GET /auth/login ""
+[2021-5-6 15:40:38] 💌 << 200 OK
+[2021-5-6 15:40:38] 📨 >> POST /auth/login {
+	"email": "Deon.Bahringer@gmail.com",
+	"password": "A8WVZK0mPPzyXmE",
+	"remember": "remember"
+}
+[2021-5-6 15:40:38] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:38] 📨 >> GET /user/1 ""
+[2021-5-6 15:40:39] 💌 << 200 OK
+[2021-5-6 15:40:39] 📨 >> GET / ""
+[2021-5-6 15:40:39] 💌 << 200 OK
+[2021-5-6 15:40:39] 📨 >> GET /category/2 ""
+[2021-5-6 15:40:39] 💌 << 200 OK
+[2021-5-6 15:40:39] 📨 >> GET /post/2 ""
+[2021-5-6 15:40:39] 💌 << 200 OK
+[2021-5-6 15:40:39] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:40:39] 📨 >> GET /user/1 ""
+[2021-5-6 15:40:39] 💌 << 200 OK
+[2021-5-6 15:40:39] 💌 << 200 OK
+[2021-5-6 15:40:39] 📨 >> GET /user/1/commentbookmarks ""
+[2021-5-6 15:40:39] 💌 << 200 OK
+[2021-5-6 15:40:46] 📨 >> GET / ""
+[2021-5-6 15:40:46] 💌 << 200 OK
+[2021-5-6 15:40:46] 📨 >> GET /auth/login ""
+[2021-5-6 15:40:46] 💌 << 200 OK
+[2021-5-6 15:40:46] 📨 >> POST /auth/login {
+	"email": "Carmela_Tremblay@hotmail.com",
+	"password": "Bi5sx0wL41PiAUf",
+	"remember": "remember"
+}
+[2021-5-6 15:40:46] 💌 << 303 SEE_OTHER
+[2021-5-6 15:40:46] 📨 >> GET /user/1 ""
+[2021-5-6 15:40:46] 💌 << 200 OK
+[2021-5-6 15:40:46] 📨 >> GET / ""
+[2021-5-6 15:40:46] 💌 << 200 OK
+[2021-5-6 15:40:46] 📨 >> GET /category/2 ""
+[2021-5-6 15:40:46] 💌 << 200 OK
+[2021-5-6 15:40:46] 📨 >> GET /post/2 ""
+[2021-5-6 15:40:47] 💌 << 200 OK
+[2021-5-6 15:40:54] 📨 >> GET / ""
+[2021-5-6 15:40:54] 💌 << 200 OK
+[2021-5-6 15:40:54] 📨 >> GET /category/1 ""
+[2021-5-6 15:40:55] 💌 << 200 OK
+[2021-5-6 15:40:55] 📨 >> GET /post/1 ""
+[2021-5-6 15:40:55] 💌 << 200 OK
+[2021-5-6 15:41:1] 📨 >> GET / ""
+[2021-5-6 15:41:1] 💌 << 200 OK
+[2021-5-6 15:41:1] 📨 >> GET /auth/login ""
+[2021-5-6 15:41:1] 💌 << 200 OK
+[2021-5-6 15:41:1] 📨 >> POST /auth/login {
+	"email": "Reymundo_Osinski@gmail.com",
+	"password": "cq6yctuFLAq8oEK",
+	"remember": "remember"
+}
+[2021-5-6 15:41:1] 💌 << 303 SEE_OTHER
+[2021-5-6 15:41:1] 📨 >> GET /user/7 ""
+[2021-5-6 15:41:1] 💌 << 200 OK
+[2021-5-6 15:41:1] 📨 >> GET / ""
+[2021-5-6 15:41:1] 💌 << 200 OK
+[2021-5-6 15:41:1] 📨 >> GET /category/2 ""
+[2021-5-6 15:41:1] 💌 << 200 OK
+[2021-5-6 15:41:2] 📨 >> GET /post/2 ""
+[2021-5-6 15:41:2] 💌 << 200 OK
+[2021-5-6 15:41:2] 📨 >> GET / ""
+[2021-5-6 15:41:2] 💌 << 200 OK
+[2021-5-6 15:41:2] 📨 >> GET /auth/logout ""
+[2021-5-6 15:41:2] 💌 << 303 SEE_OTHER
+[2021-5-6 15:41:2] 📨 >> GET // ""
+[2021-5-6 15:41:2] 💌 << 200 OK
+[2021-5-6 15:41:2] 📨 >> GET / ""
+[2021-5-6 15:41:2] 💌 << 200 OK
+[2021-5-6 15:41:2] 📨 >> GET /auth/login ""
+[2021-5-6 15:41:2] 💌 << 200 OK
+[2021-5-6 15:41:3] 📨 >> POST /auth/login {
+	"email": "Marlin.Sipes24@gmail.com",
+	"password": "9GuiO5ydDDBclC1",
+	"remember": "remember"
+}
+[2021-5-6 15:41:3] 💌 << 303 SEE_OTHER
+[2021-5-6 15:41:3] 📨 >> GET /user/8 ""
+[2021-5-6 15:41:3] 💌 << 200 OK
+[2021-5-6 15:41:3] 📨 >> GET / ""
+[2021-5-6 15:41:3] 💌 << 200 OK
+[2021-5-6 15:41:3] 📨 >> GET /category/2 ""
+[2021-5-6 15:41:3] 💌 << 200 OK
+[2021-5-6 15:41:3] 📨 >> GET /post/2 ""
+[2021-5-6 15:41:3] 💌 << 200 OK
+[2021-5-6 15:41:3] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:41:3] 📨 >> GET / ""
+[2021-5-6 15:41:3] 💌 << 200 OK
+[2021-5-6 15:41:3] 📨 >> GET /auth/logout ""
+[2021-5-6 15:41:3] 💌 << 303 SEE_OTHER
+[2021-5-6 15:41:3] 📨 >> GET // ""
+[2021-5-6 15:41:3] 💌 << 200 OK
+[2021-5-6 15:41:4] 💌 << 200 OK
+[2021-5-6 15:41:4] 📨 >> GET / ""
+[2021-5-6 15:41:4] 💌 << 200 OK
+[2021-5-6 15:41:4] 📨 >> GET /auth/login ""
+[2021-5-6 15:41:4] 💌 << 200 OK
+[2021-5-6 15:41:4] 📨 >> POST /auth/login {
+	"email": "Ladarius.Cruickshank71@hotmail.com",
+	"password": "y5_OIejRyHhOxDg",
+	"remember": "remember"
+}
+[2021-5-6 15:41:4] 💌 << 303 SEE_OTHER
+[2021-5-6 15:41:4] 📨 >> GET /user/9 ""
+[2021-5-6 15:41:4] 💌 << 200 OK
+[2021-5-6 15:41:4] 📨 >> GET / ""
+[2021-5-6 15:41:4] 💌 << 200 OK
+[2021-5-6 15:41:4] 📨 >> GET /category/2 ""
+[2021-5-6 15:41:4] 💌 << 200 OK
+[2021-5-6 15:41:4] 📨 >> GET /post/2 ""
+[2021-5-6 15:41:5] 💌 << 200 OK
+[2021-5-6 15:41:5] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:41:5] 📨 >> GET /comment/1/unbookmark ""
+[2021-5-6 15:41:5] CommentException: Cannot unbookmark Comment: Comment has not been bookmarked.
+    at Comment.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:91:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:76:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:41:5] 💌 << 400 BAD_REQUEST
+[2021-5-6 15:41:5] 💌 << 200 OK
+[2021-5-6 15:42:32] 📨 >> GET / ""
+[2021-5-6 15:42:33] 💌 << 200 OK
+[2021-5-6 15:42:33] 📨 >> GET /auth/login ""
+[2021-5-6 15:42:33] 💌 << 200 OK
+[2021-5-6 15:42:33] 📨 >> POST /auth/login {
+	"email": "Wilson.Kuvalis@yahoo.com",
+	"password": "FjGHgdpb1Qb9rtj",
+	"remember": "remember"
+}
+[2021-5-6 15:42:33] 💌 << 303 SEE_OTHER
+[2021-5-6 15:42:33] 📨 >> GET /user/1 ""
+[2021-5-6 15:42:33] 💌 << 200 OK
+[2021-5-6 15:42:33] 📨 >> GET / ""
+[2021-5-6 15:42:33] 💌 << 200 OK
+[2021-5-6 15:42:33] 📨 >> GET /category/1 ""
+[2021-5-6 15:42:33] 💌 << 200 OK
+[2021-5-6 15:42:33] 📨 >> GET /post/1 ""
+[2021-5-6 15:42:33] 💌 << 200 OK
+[2021-5-6 15:42:34] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:42:34] 📨 >> GET /user/1 ""
+[2021-5-6 15:42:34] 💌 << 200 OK
+[2021-5-6 15:42:34] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:42:34] 💌 << 200 OK
+[2021-5-6 15:42:34] 💌 << 200 OK
+[2021-5-6 15:43:1] 📨 >> GET / ""
+[2021-5-6 15:43:1] 💌 << 200 OK
+[2021-5-6 15:43:3] 📨 >> GET /auth/login ""
+[2021-5-6 15:43:3] 💌 << 200 OK
+[2021-5-6 15:43:10] 📨 >> POST /auth/login {
+	"email": "Mark_Vandervort@yahoo.com",
+	"password": "49blvKEqdsdQLfR",
+	"remember": "remember"
+}
+[2021-5-6 15:43:10] 💌 << 303 SEE_OTHER
+[2021-5-6 15:43:10] 📨 >> GET /user/1 ""
+[2021-5-6 15:43:10] 💌 << 200 OK
+[2021-5-6 15:43:12] 📨 >> GET / ""
+[2021-5-6 15:43:12] 💌 << 200 OK
+[2021-5-6 15:43:13] 📨 >> GET /category/1 ""
+[2021-5-6 15:43:14] 💌 << 200 OK
+[2021-5-6 15:43:15] 📨 >> GET /post/1 ""
+[2021-5-6 15:43:15] 💌 << 200 OK
+[2021-5-6 15:43:19] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:43:19] 💌 << 200 OK
+[2021-5-6 15:43:21] 📨 >> GET /user/1 ""
+[2021-5-6 15:43:21] 💌 << 200 OK
+[2021-5-6 15:43:24] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:43:24] 💌 << 200 OK
+[2021-5-6 15:43:59] 📨 >> GET / ""
+[2021-5-6 15:43:59] 💌 << 200 OK
+[2021-5-6 15:43:59] 📨 >> GET /auth/login ""
+[2021-5-6 15:43:59] 💌 << 200 OK
+[2021-5-6 15:44:0] 📨 >> POST /auth/login {
+	"email": "Sydni.Cummerata@gmail.com",
+	"password": "ETHHJopiZBve_yu",
+	"remember": "remember"
+}
+[2021-5-6 15:44:0] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:0] 📨 >> GET /user/1 ""
+[2021-5-6 15:44:0] 💌 << 200 OK
+[2021-5-6 15:44:0] 📨 >> GET / ""
+[2021-5-6 15:44:0] 💌 << 200 OK
+[2021-5-6 15:44:0] 📨 >> GET /category/1 ""
+[2021-5-6 15:44:0] 💌 << 200 OK
+[2021-5-6 15:44:0] 📨 >> GET /post/1 ""
+[2021-5-6 15:44:0] 💌 << 200 OK
+[2021-5-6 15:44:0] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:44:0] 📨 >> GET /user/1 ""
+[2021-5-6 15:44:0] 💌 << 200 OK
+[2021-5-6 15:44:1] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:44:1] 💌 << 200 OK
+[2021-5-6 15:44:1] 💌 << 200 OK
+[2021-5-6 15:44:20] 📨 >> GET / ""
+[2021-5-6 15:44:20] 💌 << 200 OK
+[2021-5-6 15:44:20] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:20] 💌 << 200 OK
+[2021-5-6 15:44:20] 📨 >> POST /auth/login {
+	"email": "Kian_Dooley34@hotmail.com",
+	"password": "GptODQWMkZvBlQy",
+	"remember": "remember"
+}
+[2021-5-6 15:44:20] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:20] 📨 >> GET /user/1 ""
+[2021-5-6 15:44:20] 💌 << 200 OK
+[2021-5-6 15:44:20] 📨 >> GET / ""
+[2021-5-6 15:44:20] 💌 << 200 OK
+[2021-5-6 15:44:20] 📨 >> GET /category/1 ""
+[2021-5-6 15:44:20] 💌 << 200 OK
+[2021-5-6 15:44:21] 📨 >> GET /post/1 ""
+[2021-5-6 15:44:21] 💌 << 200 OK
+[2021-5-6 15:44:21] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:44:21] 📨 >> GET /user/1 ""
+[2021-5-6 15:44:21] 💌 << 200 OK
+[2021-5-6 15:44:21] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:44:21] 💌 << 200 OK
+[2021-5-6 15:44:21] 💌 << 200 OK
+[2021-5-6 15:44:30] 📨 >> GET / ""
+[2021-5-6 15:44:30] 💌 << 200 OK
+[2021-5-6 15:44:30] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:30] 💌 << 200 OK
+[2021-5-6 15:44:30] 📨 >> POST /auth/login {
+	"email": "Zakary65@hotmail.com",
+	"password": "CZQ3Rio444i8saq",
+	"remember": "remember"
+}
+[2021-5-6 15:44:30] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:30] 📨 >> GET /user/1 ""
+[2021-5-6 15:44:31] 💌 << 200 OK
+[2021-5-6 15:44:31] 📨 >> GET / ""
+[2021-5-6 15:44:31] 💌 << 200 OK
+[2021-5-6 15:44:31] 📨 >> GET /category/1 ""
+[2021-5-6 15:44:31] 💌 << 200 OK
+[2021-5-6 15:44:31] 📨 >> GET /post/1 ""
+[2021-5-6 15:44:31] 💌 << 200 OK
+[2021-5-6 15:44:31] 📨 >> GET /post/1/unbookmark ""
+[2021-5-6 15:44:31] 📨 >> GET /user/1 ""
+[2021-5-6 15:44:31] 💌 << 200 OK
+[2021-5-6 15:44:31] 📨 >> GET /user/1/postbookmarks ""
+[2021-5-6 15:44:31] 💌 << 200 OK
+[2021-5-6 15:44:31] 💌 << 200 OK
+[2021-5-6 15:44:37] 📨 >> GET / ""
+[2021-5-6 15:44:37] 💌 << 200 OK
+[2021-5-6 15:44:37] 📨 >> GET /category/1 ""
+[2021-5-6 15:44:37] 💌 << 200 OK
+[2021-5-6 15:44:37] 📨 >> GET /post/1 ""
+[2021-5-6 15:44:37] 💌 << 200 OK
+[2021-5-6 15:44:43] 📨 >> GET / ""
+[2021-5-6 15:44:43] 💌 << 200 OK
+[2021-5-6 15:44:43] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:43] 💌 << 200 OK
+[2021-5-6 15:44:43] 📨 >> POST /auth/login {
+	"email": "Alejandrin.Reichel@hotmail.com",
+	"password": "3R1IjPe8Yozjo7Y",
+	"remember": "remember"
+}
+[2021-5-6 15:44:43] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:43] 📨 >> GET /user/7 ""
+[2021-5-6 15:44:43] 💌 << 200 OK
+[2021-5-6 15:44:43] 📨 >> GET / ""
+[2021-5-6 15:44:43] 💌 << 200 OK
+[2021-5-6 15:44:43] 📨 >> GET /category/1 ""
+[2021-5-6 15:44:43] 💌 << 200 OK
+[2021-5-6 15:44:43] 📨 >> GET /post/1 ""
+[2021-5-6 15:44:44] 💌 << 200 OK
+[2021-5-6 15:44:44] 📨 >> GET / ""
+[2021-5-6 15:44:44] 💌 << 200 OK
+[2021-5-6 15:44:44] 📨 >> GET /auth/logout ""
+[2021-5-6 15:44:44] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:44] 📨 >> GET // ""
+[2021-5-6 15:44:44] 💌 << 200 OK
+[2021-5-6 15:44:44] 📨 >> GET / ""
+[2021-5-6 15:44:44] 💌 << 200 OK
+[2021-5-6 15:44:44] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:44] 💌 << 200 OK
+[2021-5-6 15:44:44] 📨 >> POST /auth/login {
+	"email": "Lina63@hotmail.com",
+	"password": "gwdHFvBZZasTX2f",
+	"remember": "remember"
+}
+[2021-5-6 15:44:44] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:44] 📨 >> GET /user/8 ""
+[2021-5-6 15:44:44] 💌 << 200 OK
+[2021-5-6 15:44:45] 📨 >> GET / ""
+[2021-5-6 15:44:45] 💌 << 200 OK
+[2021-5-6 15:44:45] 📨 >> GET /category/1 ""
+[2021-5-6 15:44:45] 💌 << 200 OK
+[2021-5-6 15:44:45] 📨 >> GET /post/1 ""
+[2021-5-6 15:44:45] 💌 << 200 OK
+[2021-5-6 15:44:45] 📨 >> GET /post/1/bookmark ""
+[2021-5-6 15:44:45] 📨 >> GET /post/1/unbookmark ""
+[2021-5-6 15:44:45] 📨 >> GET / ""
+[2021-5-6 15:44:45] PostException: Cannot unbookmark Post: Post has not been bookmarked.
+    at Post.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:270:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:80:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:44:45] 💌 << 400 BAD_REQUEST
+[2021-5-6 15:44:45] 💌 << 200 OK
+[2021-5-6 15:44:45] 💌 << 200 OK
+[2021-5-6 15:44:45] 📨 >> GET /auth/logout ""
+[2021-5-6 15:44:45] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:45] 📨 >> GET // ""
+[2021-5-6 15:44:45] 💌 << 200 OK
+[2021-5-6 15:44:46] 📨 >> GET / ""
+[2021-5-6 15:44:46] 💌 << 200 OK
+[2021-5-6 15:44:46] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:46] 💌 << 200 OK
+[2021-5-6 15:44:46] 📨 >> POST /auth/login {
+	"email": "Anjali_Wyman79@gmail.com",
+	"password": "IIf9vjpT11sxJQv",
+	"remember": "remember"
+}
+[2021-5-6 15:44:46] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:46] 📨 >> GET /user/9 ""
+[2021-5-6 15:44:46] 💌 << 200 OK
+[2021-5-6 15:44:46] 📨 >> GET / ""
+[2021-5-6 15:44:46] 💌 << 200 OK
+[2021-5-6 15:44:46] 📨 >> GET /category/1 ""
+[2021-5-6 15:44:46] 💌 << 200 OK
+[2021-5-6 15:44:46] 📨 >> GET /post/1 ""
+[2021-5-6 15:44:46] 💌 << 200 OK
+[2021-5-6 15:44:47] 📨 >> GET / ""
+[2021-5-6 15:44:47] 💌 << 200 OK
+[2021-5-6 15:44:47] 📨 >> GET /auth/logout ""
+[2021-5-6 15:44:47] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:47] 📨 >> GET // ""
+[2021-5-6 15:44:47] 💌 << 200 OK
+[2021-5-6 15:44:47] 📨 >> GET / ""
+[2021-5-6 15:44:47] 💌 << 200 OK
+[2021-5-6 15:44:47] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:47] 💌 << 200 OK
+[2021-5-6 15:44:47] 📨 >> POST /auth/login {
+	"email": "Philip_Bins65@gmail.com",
+	"password": "n7qdH898h_8g3w4",
+	"remember": "remember"
+}
+[2021-5-6 15:44:47] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:47] 📨 >> GET /user/10 ""
+[2021-5-6 15:44:47] 💌 << 200 OK
+[2021-5-6 15:44:47] 📨 >> GET / ""
+[2021-5-6 15:44:48] 💌 << 200 OK
+[2021-5-6 15:44:48] 📨 >> GET /category/1 ""
+[2021-5-6 15:44:48] 💌 << 200 OK
+[2021-5-6 15:44:48] 📨 >> GET /post/1 ""
+[2021-5-6 15:44:48] 💌 << 200 OK
+[2021-5-6 15:44:48] 📨 >> GET / ""
+[2021-5-6 15:44:48] 💌 << 200 OK
+[2021-5-6 15:44:48] 📨 >> GET /auth/logout ""
+[2021-5-6 15:44:48] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:48] 📨 >> GET // ""
+[2021-5-6 15:44:48] 💌 << 200 OK
+[2021-5-6 15:44:48] 📨 >> GET / ""
+[2021-5-6 15:44:48] 💌 << 200 OK
+[2021-5-6 15:44:48] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:48] 💌 << 200 OK
+[2021-5-6 15:44:49] 📨 >> POST /auth/login {
+	"email": "Alejandrin.Reichel@hotmail.com",
+	"password": "3R1IjPe8Yozjo7Y",
+	"remember": "remember"
+}
+[2021-5-6 15:44:49] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:49] 📨 >> GET /user/7 ""
+[2021-5-6 15:44:49] 💌 << 200 OK
+[2021-5-6 15:44:49] 📨 >> GET /user/7/postbookmarks ""
+[2021-5-6 15:44:49] 💌 << 200 OK
+[2021-5-6 15:44:49] 📨 >> GET / ""
+[2021-5-6 15:44:49] 💌 << 200 OK
+[2021-5-6 15:44:49] 📨 >> GET /auth/logout ""
+[2021-5-6 15:44:49] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:49] 📨 >> GET // ""
+[2021-5-6 15:44:49] 💌 << 200 OK
+[2021-5-6 15:44:49] 📨 >> GET / ""
+[2021-5-6 15:44:49] 💌 << 200 OK
+[2021-5-6 15:44:49] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:49] 💌 << 200 OK
+[2021-5-6 15:44:49] 📨 >> POST /auth/login {
+	"email": "Lina63@hotmail.com",
+	"password": "gwdHFvBZZasTX2f",
+	"remember": "remember"
+}
+[2021-5-6 15:44:49] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:49] 📨 >> GET /user/8 ""
+[2021-5-6 15:44:49] 💌 << 200 OK
+[2021-5-6 15:44:50] 📨 >> GET /user/8/postbookmarks ""
+[2021-5-6 15:44:50] 💌 << 200 OK
+[2021-5-6 15:44:58] 📨 >> GET / ""
+[2021-5-6 15:44:58] 💌 << 200 OK
+[2021-5-6 15:44:58] 📨 >> GET /auth/login ""
+[2021-5-6 15:44:58] 💌 << 200 OK
+[2021-5-6 15:44:58] 📨 >> POST /auth/login {
+	"email": "Ola.Tremblay68@gmail.com",
+	"password": "X3HoadZK0HbJnS7",
+	"remember": "remember"
+}
+[2021-5-6 15:44:58] 💌 << 303 SEE_OTHER
+[2021-5-6 15:44:58] 📨 >> GET /user/1 ""
+[2021-5-6 15:44:58] 💌 << 200 OK
+[2021-5-6 15:44:58] 📨 >> GET / ""
+[2021-5-6 15:44:58] 💌 << 200 OK
+[2021-5-6 15:44:58] 📨 >> GET /category/2 ""
+[2021-5-6 15:44:58] 💌 << 200 OK
+[2021-5-6 15:44:58] 📨 >> GET /post/2 ""
+[2021-5-6 15:44:59] 💌 << 200 OK
+[2021-5-6 15:44:59] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:44:59] 📨 >> GET /user/1 ""
+[2021-5-6 15:44:59] 💌 << 200 OK
+[2021-5-6 15:44:59] 💌 << 200 OK
+[2021-5-6 15:44:59] 📨 >> GET /user/1/commentbookmarks ""
+[2021-5-6 15:44:59] 💌 << 200 OK
+[2021-5-6 15:45:4] 📨 >> GET / ""
+[2021-5-6 15:45:4] 💌 << 200 OK
+[2021-5-6 15:45:5] 📨 >> GET /auth/login ""
+[2021-5-6 15:45:5] 💌 << 200 OK
+[2021-5-6 15:45:5] 📨 >> POST /auth/login {
+	"email": "Chester24@gmail.com",
+	"password": "L6gXpcytGCjyJfp",
+	"remember": "remember"
+}
+[2021-5-6 15:45:5] 💌 << 303 SEE_OTHER
+[2021-5-6 15:45:5] 📨 >> GET /user/1 ""
+[2021-5-6 15:45:5] 💌 << 200 OK
+[2021-5-6 15:45:5] 📨 >> GET / ""
+[2021-5-6 15:45:5] 💌 << 200 OK
+[2021-5-6 15:45:5] 📨 >> GET /category/2 ""
+[2021-5-6 15:45:5] 💌 << 200 OK
+[2021-5-6 15:45:5] 📨 >> GET /post/2 ""
+[2021-5-6 15:45:6] 💌 << 200 OK
+[2021-5-6 15:45:11] 📨 >> GET / ""
+[2021-5-6 15:45:11] 💌 << 200 OK
+[2021-5-6 15:45:11] 📨 >> GET /category/1 ""
+[2021-5-6 15:45:11] 💌 << 200 OK
+[2021-5-6 15:45:12] 📨 >> GET /post/1 ""
+[2021-5-6 15:45:12] 💌 << 200 OK
+[2021-5-6 15:45:17] 📨 >> GET / ""
+[2021-5-6 15:45:17] 💌 << 200 OK
+[2021-5-6 15:45:17] 📨 >> GET /auth/login ""
+[2021-5-6 15:45:17] 💌 << 200 OK
+[2021-5-6 15:45:18] 📨 >> POST /auth/login {
+	"email": "Tessie32@hotmail.com",
+	"password": "dnP4FGJ8hUx83yL",
+	"remember": "remember"
+}
+[2021-5-6 15:45:18] 💌 << 303 SEE_OTHER
+[2021-5-6 15:45:18] 📨 >> GET /user/7 ""
+[2021-5-6 15:45:18] 💌 << 200 OK
+[2021-5-6 15:45:18] 📨 >> GET / ""
+[2021-5-6 15:45:18] 💌 << 200 OK
+[2021-5-6 15:45:18] 📨 >> GET /category/2 ""
+[2021-5-6 15:45:18] 💌 << 200 OK
+[2021-5-6 15:45:18] 📨 >> GET /post/2 ""
+[2021-5-6 15:45:18] 💌 << 200 OK
+[2021-5-6 15:45:18] 📨 >> GET / ""
+[2021-5-6 15:45:18] 💌 << 200 OK
+[2021-5-6 15:45:18] 📨 >> GET /auth/logout ""
+[2021-5-6 15:45:18] 💌 << 303 SEE_OTHER
+[2021-5-6 15:45:18] 📨 >> GET // ""
+[2021-5-6 15:45:18] 💌 << 200 OK
+[2021-5-6 15:45:19] 📨 >> GET / ""
+[2021-5-6 15:45:19] 💌 << 200 OK
+[2021-5-6 15:45:19] 📨 >> GET /auth/login ""
+[2021-5-6 15:45:19] 💌 << 200 OK
+[2021-5-6 15:45:19] 📨 >> POST /auth/login {
+	"email": "Modesto_Gaylord@gmail.com",
+	"password": "MF4JQu8zjzD96s1",
+	"remember": "remember"
+}
+[2021-5-6 15:45:19] 💌 << 303 SEE_OTHER
+[2021-5-6 15:45:19] 📨 >> GET /user/8 ""
+[2021-5-6 15:45:19] 💌 << 200 OK
+[2021-5-6 15:45:19] 📨 >> GET / ""
+[2021-5-6 15:45:19] 💌 << 200 OK
+[2021-5-6 15:45:19] 📨 >> GET /category/2 ""
+[2021-5-6 15:45:19] 💌 << 200 OK
+[2021-5-6 15:45:19] 📨 >> GET /post/2 ""
+[2021-5-6 15:45:20] 💌 << 200 OK
+[2021-5-6 15:45:20] 📨 >> GET / ""
+[2021-5-6 15:45:20] 💌 << 200 OK
+[2021-5-6 15:45:20] 📨 >> GET /auth/logout ""
+[2021-5-6 15:45:20] 💌 << 303 SEE_OTHER
+[2021-5-6 15:45:20] 📨 >> GET // ""
+[2021-5-6 15:45:20] 💌 << 200 OK
+[2021-5-6 15:45:20] 📨 >> GET / ""
+[2021-5-6 15:45:20] 💌 << 200 OK
+[2021-5-6 15:45:20] 📨 >> GET /auth/login ""
+[2021-5-6 15:45:21] 💌 << 200 OK
+[2021-5-6 15:45:21] 📨 >> POST /auth/login {
+	"email": "Efren.Gibson5@gmail.com",
+	"password": "FRnpA5czCaSaXJT",
+	"remember": "remember"
+}
+[2021-5-6 15:45:21] 💌 << 303 SEE_OTHER
+[2021-5-6 15:45:21] 📨 >> GET /user/9 ""
+[2021-5-6 15:45:21] 💌 << 200 OK
+[2021-5-6 15:45:21] 📨 >> GET / ""
+[2021-5-6 15:45:21] 💌 << 200 OK
+[2021-5-6 15:45:21] 📨 >> GET /category/2 ""
+[2021-5-6 15:45:21] 💌 << 200 OK
+[2021-5-6 15:45:21] 📨 >> GET /post/2 ""
+[2021-5-6 15:45:21] 💌 << 200 OK
+[2021-5-6 15:45:21] 📨 >> GET /comment/1/bookmark ""
+[2021-5-6 15:45:21] 📨 >> GET /comment/1/unbookmark ""
+[2021-5-6 15:45:21] CommentException: Cannot unbookmark Comment: Comment has not been bookmarked.
+    at Comment.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:91:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.unbookmark (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:76:7)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 15:45:21] 💌 << 400 BAD_REQUEST
+[2021-5-6 15:45:22] 💌 << 200 OK
+[2021-5-6 18:38:28] PostException: Cannot down vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:80:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:156:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 18:40:57] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:80:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:156:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 18:42:33] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:80:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:156:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 18:47:22] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:80:23)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:156:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:1:2] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:94:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:156:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:4:0] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:145:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:168:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:17:0] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:181:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:31:23] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:191:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:46:8] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:94:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:156:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:46:12] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:145:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:168:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:46:16] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:181:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:46:20] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:191:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:56:17] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:94:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:156:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:56:22] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:145:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:168:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:56:26] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:181:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 19:56:30] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:191:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 20:1:20] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:94:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:156:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 20:1:25] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:145:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:168:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 20:1:30] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:181:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 20:1:34] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:191:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 20:2:23] CommentException: Cannot up vote Comment: Comment has already been up voted.
+    at Comment.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:96:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:338:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 20:2:29] CommentException: Cannot down vote Comment: Comment has already been down voted.
+    at Comment.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:147:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:350:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 20:2:35] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:363:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 20:2:40] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/models/vote.test.js:373:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 21:38:4] PostException: Cannot upvote Post: You must be logged in.
+    at PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:61:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:126:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 21:40:54] PostException: Cannot up vote Post: You must be logged in.
+    at PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:61:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:126:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 21:41:38] PostException: Cannot down vote Post: You must be logged in.
+    at PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:75:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:138:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 21:42:20] PostException: Cannot unvote Post: You must be logged in.
+    at PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:89:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:150:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 22:7:3] CommentException: Cannot up vote Comment: You must be logged in.
+    at CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:58:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:396:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 22:8:3] CommentException: Cannot down vote Comment: You must be logged in.
+    at CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:72:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:408:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 22:8:37] CommentException: Cannot unvote Comment: You must be logged in.
+    at CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:86:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:420:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 22:11:7] PostException: Cannot up vote Post: You must be logged in.
+    at PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:61:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:126:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 22:11:16] PostException: Cannot down vote Post: You must be logged in.
+    at PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:75:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:138:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 22:11:29] PostException: Cannot unvote Post: You must be logged in.
+    at PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:89:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:150:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+    at runTestInternal (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-runner/build/runTest.js:380:16)
+[2021-5-6 22:12:12] CommentException: Cannot up vote Comment: You must be logged in.
+    at CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:58:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:396:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 22:12:17] CommentException: Cannot down vote Comment: You must be logged in.
+    at CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:72:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:408:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 22:12:25] CommentException: Cannot unvote Comment: You must be logged in.
+    at CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:86:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/controllers/vote.test.js:420:2)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+    at jestAdapter (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapter.js:109:19)
+[2021-5-6 22:58:43] PostException: Cannot up vote Post: You must be logged in.
+    at PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:61:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:121:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-6 22:59:8] PostException: Cannot down vote Post: You must be logged in.
+    at PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:75:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:132:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-6 22:59:17] PostException: Cannot unvote Post: You must be logged in.
+    at PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:89:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:143:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-6 22:59:58] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:94:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:64:9)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:301:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+[2021-5-6 23:0:8] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:145:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:78:9)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:315:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+[2021-5-6 23:0:17] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:92:9)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:330:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+[2021-5-6 23:0:25] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:92:9)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:343:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+[2021-5-6 23:1:9] CommentException: Cannot up vote Comment: You must be logged in.
+    at CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:58:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:429:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-6 23:1:14] CommentException: Cannot down vote Comment: You must be logged in.
+    at CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:72:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:440:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-6 23:1:19] CommentException: Cannot unvote Comment: You must be logged in.
+    at CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:86:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:451:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+    at runAndTransformResultsToJestFormat (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/legacy-code-todo-rewrite/jestAdapterInit.js:176:21)
+[2021-5-6 23:2:12] CommentException: Cannot up vote Comment: Comment has already been up voted.
+    at Comment.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:96:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:9)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:609:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+[2021-5-6 23:2:37] CommentException: Cannot down vote Comment: Comment has already been down voted.
+    at Comment.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:147:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:75:9)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:623:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+[2021-5-6 23:3:0] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:89:9)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:638:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+[2021-5-6 23:3:8] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:89:9)
+    at Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at Object.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/tests/router/vote.test.js:651:19)
+    at _callCircusTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:212:5)
+    at _runTest (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:149:3)
+    at _runTestsForDescribeBlock (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:63:9)
+    at run (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/node_modules/jest-circus/build/run.js:25:3)
+[2021-5-6 23:4:9] 📨 >> POST /auth/login {
+	"email": "Savanah.Crooks@gmail.com",
+	"password": "EFwCAz_H2ch3KkK"
+}
+[2021-5-6 23:4:9] 💌 << 200 OK
+[2021-5-6 23:4:9] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:4:9] 💌 << 200 OK
+[2021-5-6 23:4:9] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:4:9] 💌 << 200 OK
+[2021-5-6 23:4:18] 📨 >> POST /auth/login {
+	"email": "Kamille96@gmail.com",
+	"password": "xRc2eoorY8BSkM9"
+}
+[2021-5-6 23:4:18] 💌 << 200 OK
+[2021-5-6 23:4:18] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:4:18] 💌 << 200 OK
+[2021-5-6 23:4:18] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:4:18] 💌 << 200 OK
+[2021-5-6 23:4:25] 📨 >> POST /auth/login {
+	"email": "Linwood83@yahoo.com",
+	"password": "kfLxZTlE2bG13jI"
+}
+[2021-5-6 23:4:25] 💌 << 200 OK
+[2021-5-6 23:4:25] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:4:25] 💌 << 200 OK
+[2021-5-6 23:4:25] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:4:25] 💌 << 200 OK
+[2021-5-6 23:4:30] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:4:30] PostException: Cannot up vote Post: You must be logged in.
+    at PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:61:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:4:30] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:4:35] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:4:35] PostException: Cannot down vote Post: You must be logged in.
+    at PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:75:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:4:35] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:4:41] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:4:41] PostException: Cannot unvote Post: You must be logged in.
+    at PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:89:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:4:41] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:4:48] 📨 >> POST /auth/login {
+	"email": "Duane.Price@gmail.com",
+	"password": "7R0YxjA9IHjtNnH"
+}
+[2021-5-6 23:4:48] 💌 << 200 OK
+[2021-5-6 23:4:48] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:4:48] 💌 << 200 OK
+[2021-5-6 23:4:48] 📨 >> GET /post/1 {}
+[2021-5-6 23:4:48] 💌 << 200 OK
+[2021-5-6 23:4:54] 📨 >> POST /auth/login {
+	"email": "Verna.Bartoletti94@yahoo.com",
+	"password": "UMhmf9zTlZccNXk"
+}
+[2021-5-6 23:4:54] 💌 << 200 OK
+[2021-5-6 23:4:54] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:4:54] 💌 << 200 OK
+[2021-5-6 23:4:54] 📨 >> GET /post/1 {}
+[2021-5-6 23:4:54] 💌 << 200 OK
+[2021-5-6 23:5:0] 📨 >> POST /auth/login {
+	"email": "Cali.Reilly64@yahoo.com",
+	"password": "oFSbn5uiIf2W7_P"
+}
+[2021-5-6 23:5:0] 💌 << 200 OK
+[2021-5-6 23:5:0] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:5:0] 💌 << 200 OK
+[2021-5-6 23:5:0] 📨 >> GET /post/1 {}
+[2021-5-6 23:5:0] 💌 << 200 OK
+[2021-5-6 23:5:5] 📨 >> POST /auth/login {
+	"email": "Herminio78@yahoo.com",
+	"password": "f7pT72U3aDpx0up"
+}
+[2021-5-6 23:5:5] 💌 << 200 OK
+[2021-5-6 23:5:5] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:5:5] 💌 << 200 OK
+[2021-5-6 23:5:5] 📨 >> GET /post/1 {}
+[2021-5-6 23:5:5] 💌 << 200 OK
+[2021-5-6 23:5:11] 📨 >> POST /auth/login {
+	"email": "Roxane31@yahoo.com",
+	"password": "OMssCiweoR28Kmx"
+}
+[2021-5-6 23:5:11] 💌 << 200 OK
+[2021-5-6 23:5:11] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:5:11] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:94:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:64:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:5:11] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:5:17] 📨 >> POST /auth/login {
+	"email": "Blair_Boyer@gmail.com",
+	"password": "3yAuKDrpbViBsp1"
+}
+[2021-5-6 23:5:17] 💌 << 200 OK
+[2021-5-6 23:5:17] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:5:17] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:145:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:78:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:5:17] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:5:23] 📨 >> POST /auth/login {
+	"email": "Morgan_Lynch2@yahoo.com",
+	"password": "LjaeLVYfaKgyYd6"
+}
+[2021-5-6 23:5:23] 💌 << 200 OK
+[2021-5-6 23:5:23] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:5:23] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:92:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:5:23] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:5:31] 📨 >> POST /auth/login {
+	"email": "Myrtice.Gislason41@hotmail.com",
+	"password": "VpeszeMkGQjobHw"
+}
+[2021-5-6 23:5:31] 💌 << 200 OK
+[2021-5-6 23:5:31] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:5:31] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:92:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:5:31] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:5:36] 📨 >> POST /auth/login {
+	"email": "Letitia_Daniel@gmail.com",
+	"password": "qQsJLJvAw_tP_tM"
+}
+[2021-5-6 23:5:36] 💌 << 200 OK
+[2021-5-6 23:5:36] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:5:36] 💌 << 200 OK
+[2021-5-6 23:5:36] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:5:36] 💌 << 200 OK
+[2021-5-6 23:5:47] 📨 >> POST /auth/login {
+	"email": "Martina.Brown@hotmail.com",
+	"password": "dxqB03JlPuPIRPR"
+}
+[2021-5-6 23:5:47] 💌 << 200 OK
+[2021-5-6 23:5:47] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:5:48] 💌 << 200 OK
+[2021-5-6 23:5:48] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:5:48] 💌 << 200 OK
+[2021-5-6 23:5:58] 📨 >> POST /auth/login {
+	"email": "Melisa_Gottlieb@yahoo.com",
+	"password": "BmjVuql4dyHElT7"
+}
+[2021-5-6 23:5:58] 💌 << 200 OK
+[2021-5-6 23:5:58] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:5:58] 💌 << 200 OK
+[2021-5-6 23:5:58] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:5:58] 💌 << 200 OK
+[2021-5-6 23:6:9] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:6:9] CommentException: Cannot up vote Comment: You must be logged in.
+    at CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:58:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:6:9] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:6:21] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:6:21] CommentException: Cannot down vote Comment: You must be logged in.
+    at CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:72:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:6:21] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:6:27] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:6:27] CommentException: Cannot unvote Comment: You must be logged in.
+    at CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:86:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:6:27] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:6:33] 📨 >> POST /auth/login {
+	"email": "Skye.Weissnat33@yahoo.com",
+	"password": "gzRshL8HoVekQ2W"
+}
+[2021-5-6 23:6:33] 💌 << 200 OK
+[2021-5-6 23:6:33] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:6:33] 💌 << 200 OK
+[2021-5-6 23:6:33] 📨 >> GET /comment/1 {}
+[2021-5-6 23:6:33] 💌 << 200 OK
+[2021-5-6 23:6:47] 📨 >> POST /auth/login {
+	"email": "Hulda54@hotmail.com",
+	"password": "RmSys_RurxymIMq"
+}
+[2021-5-6 23:6:47] 💌 << 200 OK
+[2021-5-6 23:6:47] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:6:48] 💌 << 200 OK
+[2021-5-6 23:6:49] 📨 >> GET /comment/1 {}
+[2021-5-6 23:6:49] 💌 << 200 OK
+[2021-5-6 23:7:8] 📨 >> POST /auth/login {
+	"email": "Felix45@hotmail.com",
+	"password": "ji5C84jBxNRsdrG"
+}
+[2021-5-6 23:7:8] 💌 << 200 OK
+[2021-5-6 23:7:8] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:7:8] 💌 << 200 OK
+[2021-5-6 23:7:8] 📨 >> GET /comment/1 {}
+[2021-5-6 23:7:8] 💌 << 200 OK
+[2021-5-6 23:7:22] 📨 >> POST /auth/login {
+	"email": "Sincere.Hyatt@yahoo.com",
+	"password": "2endxtXowtwvkpP"
+}
+[2021-5-6 23:7:22] 💌 << 200 OK
+[2021-5-6 23:7:22] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:7:22] 💌 << 200 OK
+[2021-5-6 23:7:22] 📨 >> GET /comment/1 {}
+[2021-5-6 23:7:22] 💌 << 200 OK
+[2021-5-6 23:7:29] 📨 >> POST /auth/login {
+	"email": "Brennon68@hotmail.com",
+	"password": "rJ97X_kAWE6b7kU"
+}
+[2021-5-6 23:7:29] 💌 << 200 OK
+[2021-5-6 23:7:29] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:7:29] CommentException: Cannot up vote Comment: Comment has already been up voted.
+    at Comment.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:96:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:7:29] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:7:35] 📨 >> POST /auth/login {
+	"email": "Annetta6@yahoo.com",
+	"password": "IRdek6sQ2_1924_"
+}
+[2021-5-6 23:7:35] 💌 << 200 OK
+[2021-5-6 23:7:35] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:7:35] CommentException: Cannot down vote Comment: Comment has already been down voted.
+    at Comment.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:147:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:75:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:7:35] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:7:42] 📨 >> POST /auth/login {
+	"email": "Isai_Pollich@yahoo.com",
+	"password": "0ULSAw4UwTwE4Ne"
+}
+[2021-5-6 23:7:42] 💌 << 200 OK
+[2021-5-6 23:7:42] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:7:42] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:89:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:7:42] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:7:48] 📨 >> POST /auth/login {
+	"email": "Domenick_West3@gmail.com",
+	"password": "lcD9R1T8i8GibCC"
+}
+[2021-5-6 23:7:48] 💌 << 200 OK
+[2021-5-6 23:7:48] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:7:48] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:89:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:7:48] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:17:57] 📨 >> POST /auth/login {
+	"email": "Newell76@gmail.com",
+	"password": "RVgyv75aqRv_gsJ"
+}
+[2021-5-6 23:17:57] 💌 << 200 OK
+[2021-5-6 23:17:57] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:17:58] 💌 << 200 OK
+[2021-5-6 23:17:58] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:17:58] 💌 << 200 OK
+[2021-5-6 23:18:47] 📨 >> POST /auth/login {
+	"email": "Randi.Nicolas@hotmail.com",
+	"password": "eX5CS6XP16MCrti"
+}
+[2021-5-6 23:18:47] 💌 << 200 OK
+[2021-5-6 23:18:47] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:18:47] 💌 << 200 OK
+[2021-5-6 23:18:47] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:18:47] 💌 << 200 OK
+[2021-5-6 23:18:54] 📨 >> POST /auth/login {
+	"email": "Flossie_Reichert@hotmail.com",
+	"password": "h5hflpEUXMZSg9_"
+}
+[2021-5-6 23:18:54] 💌 << 200 OK
+[2021-5-6 23:18:54] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:18:54] 💌 << 200 OK
+[2021-5-6 23:18:54] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:18:54] 💌 << 200 OK
+[2021-5-6 23:19:0] 📨 >> POST /auth/login {
+	"email": "Durward75@yahoo.com",
+	"password": "PLWpPOCcfk5lP5g"
+}
+[2021-5-6 23:19:0] 💌 << 200 OK
+[2021-5-6 23:19:0] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:19:0] 💌 << 200 OK
+[2021-5-6 23:19:0] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:19:0] 💌 << 200 OK
+[2021-5-6 23:19:6] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:19:6] PostException: Cannot up vote Post: You must be logged in.
+    at PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:61:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:19:6] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:19:13] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:19:13] PostException: Cannot down vote Post: You must be logged in.
+    at PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:75:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:19:13] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:19:23] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:19:23] PostException: Cannot unvote Post: You must be logged in.
+    at PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:89:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:19:23] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:19:29] 📨 >> POST /auth/login {
+	"email": "Garland.Adams@gmail.com",
+	"password": "K5wa3YCrigOtQku"
+}
+[2021-5-6 23:19:29] 💌 << 200 OK
+[2021-5-6 23:19:29] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:19:29] 💌 << 200 OK
+[2021-5-6 23:19:29] 📨 >> GET /post/1 {}
+[2021-5-6 23:19:29] 💌 << 200 OK
+[2021-5-6 23:19:29] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:19:29] 💌 << 200 OK
+[2021-5-6 23:19:29] 📨 >> GET /post/1 {}
+[2021-5-6 23:19:29] 💌 << 200 OK
+[2021-5-6 23:19:35] 📨 >> POST /auth/login {
+	"email": "Doris_Will@hotmail.com",
+	"password": "iFpOmETjHJsJHrB"
+}
+[2021-5-6 23:19:35] 💌 << 200 OK
+[2021-5-6 23:19:35] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:19:35] 💌 << 200 OK
+[2021-5-6 23:19:35] 📨 >> GET /post/1 {}
+[2021-5-6 23:19:35] 💌 << 200 OK
+[2021-5-6 23:19:35] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:19:35] 💌 << 200 OK
+[2021-5-6 23:19:35] 📨 >> GET /post/1 {}
+[2021-5-6 23:19:36] 💌 << 200 OK
+[2021-5-6 23:19:42] 📨 >> POST /auth/login {
+	"email": "Reanna18@yahoo.com",
+	"password": "w9qZQxJZDyOY54J"
+}
+[2021-5-6 23:19:42] 💌 << 200 OK
+[2021-5-6 23:19:42] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:19:42] 💌 << 200 OK
+[2021-5-6 23:19:42] 📨 >> GET /post/1 {}
+[2021-5-6 23:19:42] 💌 << 200 OK
+[2021-5-6 23:19:42] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:19:42] 💌 << 200 OK
+[2021-5-6 23:19:42] 📨 >> GET /post/1 {}
+[2021-5-6 23:19:42] 💌 << 200 OK
+[2021-5-6 23:19:48] 📨 >> POST /auth/login {
+	"email": "Nathan12@yahoo.com",
+	"password": "Ve4KcAD5HOx1V5l"
+}
+[2021-5-6 23:19:48] 💌 << 200 OK
+[2021-5-6 23:19:48] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:19:48] 💌 << 200 OK
+[2021-5-6 23:19:48] 📨 >> GET /post/1 {}
+[2021-5-6 23:19:48] 💌 << 200 OK
+[2021-5-6 23:19:48] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:19:48] 💌 << 200 OK
+[2021-5-6 23:19:48] 📨 >> GET /post/1 {}
+[2021-5-6 23:19:48] 💌 << 200 OK
+[2021-5-6 23:19:54] 📨 >> POST /auth/login {
+	"email": "Alison.VonRueden@hotmail.com",
+	"password": "lKcpk_NScGbA8sV"
+}
+[2021-5-6 23:19:54] 💌 << 200 OK
+[2021-5-6 23:19:54] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:19:54] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:94:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:64:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:19:54] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:19:59] 📨 >> POST /auth/login {
+	"email": "Cristian89@hotmail.com",
+	"password": "zklx2zomurDBDvZ"
+}
+[2021-5-6 23:19:59] 💌 << 200 OK
+[2021-5-6 23:19:59] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:19:59] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:145:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:78:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:19:59] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:20:6] 📨 >> POST /auth/login {
+	"email": "Camila_OConnell52@yahoo.com",
+	"password": "ZddpwWlgmJqC3IW"
+}
+[2021-5-6 23:20:6] 💌 << 200 OK
+[2021-5-6 23:20:6] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:20:6] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:92:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:20:6] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:20:11] 📨 >> POST /auth/login {
+	"email": "Alexanne.Ortiz18@gmail.com",
+	"password": "9K9VOQBOxvCLgya"
+}
+[2021-5-6 23:20:11] 💌 << 200 OK
+[2021-5-6 23:20:11] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:20:11] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:92:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:20:11] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:20:18] 📨 >> POST /auth/login {
+	"email": "Maxie_Botsford61@hotmail.com",
+	"password": "SxQHaKvO9zRvuHK"
+}
+[2021-5-6 23:20:18] 💌 << 200 OK
+[2021-5-6 23:20:18] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:20:19] 💌 << 200 OK
+[2021-5-6 23:20:19] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:20:19] 💌 << 200 OK
+[2021-5-6 23:20:24] 📨 >> POST /auth/login {
+	"email": "Marisa_Hermann99@yahoo.com",
+	"password": "OlLhNC7fRNKkIKB"
+}
+[2021-5-6 23:20:24] 💌 << 200 OK
+[2021-5-6 23:20:24] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:20:25] 💌 << 200 OK
+[2021-5-6 23:20:25] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:20:25] 💌 << 200 OK
+[2021-5-6 23:20:31] 📨 >> POST /auth/login {
+	"email": "Yasmeen.Reinger@yahoo.com",
+	"password": "LKdGbsvNJugyJc5"
+}
+[2021-5-6 23:20:31] 💌 << 200 OK
+[2021-5-6 23:20:31] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:20:31] 💌 << 200 OK
+[2021-5-6 23:20:31] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:20:31] 💌 << 200 OK
+[2021-5-6 23:20:37] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:20:37] CommentException: Cannot up vote Comment: You must be logged in.
+    at CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:58:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:20:37] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:20:42] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:20:42] CommentException: Cannot down vote Comment: You must be logged in.
+    at CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:72:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:20:42] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:20:49] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:20:49] CommentException: Cannot unvote Comment: You must be logged in.
+    at CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:86:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:20:49] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:20:58] 📨 >> POST /auth/login {
+	"email": "Collin3@gmail.com",
+	"password": "LBSm20GdyJz3Phv"
+}
+[2021-5-6 23:20:58] 💌 << 200 OK
+[2021-5-6 23:20:58] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:20:58] 💌 << 200 OK
+[2021-5-6 23:20:58] 📨 >> GET /comment/1 {}
+[2021-5-6 23:20:58] 💌 << 200 OK
+[2021-5-6 23:21:5] 📨 >> POST /auth/login {
+	"email": "Dylan_Zemlak@gmail.com",
+	"password": "gREHvLFUz8wOTMb"
+}
+[2021-5-6 23:21:5] 💌 << 200 OK
+[2021-5-6 23:21:5] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:21:5] 💌 << 200 OK
+[2021-5-6 23:21:5] 📨 >> GET /comment/1 {}
+[2021-5-6 23:21:5] 💌 << 200 OK
+[2021-5-6 23:21:10] 📨 >> POST /auth/login {
+	"email": "Rolando_Metz69@hotmail.com",
+	"password": "ktFGSerMP2VUH61"
+}
+[2021-5-6 23:21:10] 💌 << 200 OK
+[2021-5-6 23:21:10] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:21:11] 💌 << 200 OK
+[2021-5-6 23:21:11] 📨 >> GET /comment/1 {}
+[2021-5-6 23:21:11] 💌 << 200 OK
+[2021-5-6 23:21:16] 📨 >> POST /auth/login {
+	"email": "Kaycee_Roob@hotmail.com",
+	"password": "_ied5qra5FUuyqg"
+}
+[2021-5-6 23:21:16] 💌 << 200 OK
+[2021-5-6 23:21:16] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:21:17] 💌 << 200 OK
+[2021-5-6 23:21:17] 📨 >> GET /comment/1 {}
+[2021-5-6 23:21:17] 💌 << 200 OK
+[2021-5-6 23:21:23] 📨 >> POST /auth/login {
+	"email": "Samir_Wyman@gmail.com",
+	"password": "mTkyyy5Bgsh9ENq"
+}
+[2021-5-6 23:21:23] 💌 << 200 OK
+[2021-5-6 23:21:23] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:21:23] CommentException: Cannot up vote Comment: Comment has already been up voted.
+    at Comment.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:96:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:21:23] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:21:30] 📨 >> POST /auth/login {
+	"email": "Bianka84@yahoo.com",
+	"password": "utfjCwTZuNirasS"
+}
+[2021-5-6 23:21:30] 💌 << 200 OK
+[2021-5-6 23:21:30] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:21:30] CommentException: Cannot down vote Comment: Comment has already been down voted.
+    at Comment.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:147:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:75:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:21:30] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:21:37] 📨 >> POST /auth/login {
+	"email": "Alicia.Bayer36@gmail.com",
+	"password": "hZzqTZ6hlfnuup2"
+}
+[2021-5-6 23:21:38] 💌 << 200 OK
+[2021-5-6 23:21:38] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:21:38] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:89:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:21:38] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:21:56] 📨 >> POST /auth/login {
+	"email": "Opal.Cummerata99@hotmail.com",
+	"password": "SHIKzJB3scXxGK4"
+}
+[2021-5-6 23:21:56] 💌 << 200 OK
+[2021-5-6 23:21:56] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:21:57] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:89:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:21:57] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:28:15] 📨 >> POST /auth/login {
+	"email": "Brendan.Bauch@yahoo.com",
+	"password": "k3_5TpKgQiJa0Dq"
+}
+[2021-5-6 23:28:15] 💌 << 200 OK
+[2021-5-6 23:28:15] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:28:15] 💌 << 200 OK
+[2021-5-6 23:28:16] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:28:16] 💌 << 200 OK
+[2021-5-6 23:28:25] 📨 >> POST /auth/login {
+	"email": "Lilian_Brown46@hotmail.com",
+	"password": "R66dVOrKuqOx8gF"
+}
+[2021-5-6 23:28:25] 💌 << 200 OK
+[2021-5-6 23:28:25] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:28:25] 💌 << 200 OK
+[2021-5-6 23:28:25] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:28:25] 💌 << 200 OK
+[2021-5-6 23:28:33] 📨 >> POST /auth/login {
+	"email": "Johnpaul4@gmail.com",
+	"password": "zKE3hxJJjsC6Ltp"
+}
+[2021-5-6 23:28:33] 💌 << 200 OK
+[2021-5-6 23:28:33] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:28:33] 💌 << 200 OK
+[2021-5-6 23:28:33] 📨 >> GET /user/1/postvotes {}
+[2021-5-6 23:28:33] 💌 << 200 OK
+[2021-5-6 23:28:40] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:28:40] PostException: Cannot up vote Post: You must be logged in.
+    at PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:61:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:28:40] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:28:46] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:28:46] PostException: Cannot down vote Post: You must be logged in.
+    at PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:75:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:28:46] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:28:51] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:28:51] PostException: Cannot unvote Post: You must be logged in.
+    at PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:89:19)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:28:51] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:28:57] 📨 >> POST /auth/login {
+	"email": "Macey.Bartoletti12@yahoo.com",
+	"password": "Hb5vJOGfieQ2Zkt"
+}
+[2021-5-6 23:28:57] 💌 << 200 OK
+[2021-5-6 23:28:57] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:28:57] 💌 << 200 OK
+[2021-5-6 23:28:57] 📨 >> GET /post/1 {}
+[2021-5-6 23:28:57] 💌 << 200 OK
+[2021-5-6 23:28:57] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:28:57] 💌 << 200 OK
+[2021-5-6 23:28:57] 📨 >> GET /post/1 {}
+[2021-5-6 23:28:57] 💌 << 200 OK
+[2021-5-6 23:29:3] 📨 >> POST /auth/login {
+	"email": "Alisha.Hoppe@hotmail.com",
+	"password": "VIaqfv3tmClLEqj"
+}
+[2021-5-6 23:29:3] 💌 << 200 OK
+[2021-5-6 23:29:3] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:29:3] 💌 << 200 OK
+[2021-5-6 23:29:3] 📨 >> GET /post/1 {}
+[2021-5-6 23:29:3] 💌 << 200 OK
+[2021-5-6 23:29:3] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:29:3] 💌 << 200 OK
+[2021-5-6 23:29:3] 📨 >> GET /post/1 {}
+[2021-5-6 23:29:3] 💌 << 200 OK
+[2021-5-6 23:29:9] 📨 >> POST /auth/login {
+	"email": "Amani.MacGyver39@gmail.com",
+	"password": "KwikHIL02609oji"
+}
+[2021-5-6 23:29:9] 💌 << 200 OK
+[2021-5-6 23:29:9] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:29:9] 💌 << 200 OK
+[2021-5-6 23:29:9] 📨 >> GET /post/1 {}
+[2021-5-6 23:29:9] 💌 << 200 OK
+[2021-5-6 23:29:9] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:29:10] 💌 << 200 OK
+[2021-5-6 23:29:10] 📨 >> GET /post/1 {}
+[2021-5-6 23:29:10] 💌 << 200 OK
+[2021-5-6 23:29:16] 📨 >> POST /auth/login {
+	"email": "Jaqueline86@yahoo.com",
+	"password": "SM1Woyc4pc0BI5Q"
+}
+[2021-5-6 23:29:16] 💌 << 200 OK
+[2021-5-6 23:29:16] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:29:16] 💌 << 200 OK
+[2021-5-6 23:29:16] 📨 >> GET /post/1 {}
+[2021-5-6 23:29:16] 💌 << 200 OK
+[2021-5-6 23:29:16] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:29:17] 💌 << 200 OK
+[2021-5-6 23:29:17] 📨 >> GET /post/1 {}
+[2021-5-6 23:29:17] 💌 << 200 OK
+[2021-5-6 23:29:22] 📨 >> POST /auth/login {
+	"email": "Trever_Gusikowski@yahoo.com",
+	"password": "_2lfhg1fpZppOFv"
+}
+[2021-5-6 23:29:22] 💌 << 200 OK
+[2021-5-6 23:29:22] 📨 >> GET /post/1/upvote {}
+[2021-5-6 23:29:22] PostException: Cannot up vote Post: Post has already been up voted.
+    at Post.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:94:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:64:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:29:22] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:29:28] 📨 >> POST /auth/login {
+	"email": "Laurence72@yahoo.com",
+	"password": "USRBvrw5wuki0j2"
+}
+[2021-5-6 23:29:28] 💌 << 200 OK
+[2021-5-6 23:29:28] 📨 >> GET /post/1/downvote {}
+[2021-5-6 23:29:28] PostException: Cannot down vote Post: Post has already been down voted.
+    at Post.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:145:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:78:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:29:28] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:29:33] 📨 >> POST /auth/login {
+	"email": "Sheldon40@hotmail.com",
+	"password": "3uTLbOr_CyW94d4"
+}
+[2021-5-6 23:29:33] 💌 << 200 OK
+[2021-5-6 23:29:33] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:29:33] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:92:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:29:33] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:29:38] 📨 >> POST /auth/login {
+	"email": "Marian30@hotmail.com",
+	"password": "RpE7TxKoH0w0rwp"
+}
+[2021-5-6 23:29:38] 💌 << 200 OK
+[2021-5-6 23:29:38] 📨 >> GET /post/1/unvote {}
+[2021-5-6 23:29:38] PostException: Cannot unvote Post: Post must first be up or down voted.
+    at Post.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Post.js:177:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async PostController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/PostController.js:92:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:29:38] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:29:44] 📨 >> POST /auth/login {
+	"email": "Ludie.Ankunding@yahoo.com",
+	"password": "V4B4iPCsj0jEcGx"
+}
+[2021-5-6 23:29:44] 💌 << 200 OK
+[2021-5-6 23:29:44] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:29:44] 💌 << 200 OK
+[2021-5-6 23:29:44] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:29:44] 💌 << 200 OK
+[2021-5-6 23:29:49] 📨 >> POST /auth/login {
+	"email": "Adella36@yahoo.com",
+	"password": "cQYpMAg5_bPA_ZG"
+}
+[2021-5-6 23:29:49] 💌 << 200 OK
+[2021-5-6 23:29:49] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:29:50] 💌 << 200 OK
+[2021-5-6 23:29:50] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:29:50] 💌 << 200 OK
+[2021-5-6 23:29:55] 📨 >> POST /auth/login {
+	"email": "Estell.Wintheiser@yahoo.com",
+	"password": "klll_Cdp5G5StuS"
+}
+[2021-5-6 23:29:55] 💌 << 200 OK
+[2021-5-6 23:29:55] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:29:55] 💌 << 200 OK
+[2021-5-6 23:29:55] 📨 >> GET /user/1/commentvotes {}
+[2021-5-6 23:29:55] 💌 << 200 OK
+[2021-5-6 23:30:1] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:30:1] CommentException: Cannot up vote Comment: You must be logged in.
+    at CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:58:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:30:1] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:30:11] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:30:11] CommentException: Cannot down vote Comment: You must be logged in.
+    at CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:72:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:30:11] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:30:19] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:30:19] CommentException: Cannot unvote Comment: You must be logged in.
+    at CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:86:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:30:19] 💌 << 401 UNAUTHORIZED
+[2021-5-6 23:30:30] 📨 >> POST /auth/login {
+	"email": "Winona36@gmail.com",
+	"password": "drAZBFDGIH_eHx3"
+}
+[2021-5-6 23:30:30] 💌 << 200 OK
+[2021-5-6 23:30:30] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:30:30] 💌 << 200 OK
+[2021-5-6 23:30:30] 📨 >> GET /comment/1 {}
+[2021-5-6 23:30:30] 💌 << 200 OK
+[2021-5-6 23:30:30] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:30:31] 💌 << 200 OK
+[2021-5-6 23:30:31] 📨 >> GET /comment/1 {}
+[2021-5-6 23:30:31] 💌 << 200 OK
+[2021-5-6 23:30:39] 📨 >> POST /auth/login {
+	"email": "Henry_Corwin16@hotmail.com",
+	"password": "NsDB1oF13PZJjTB"
+}
+[2021-5-6 23:30:39] 💌 << 200 OK
+[2021-5-6 23:30:39] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:30:39] 💌 << 200 OK
+[2021-5-6 23:30:39] 📨 >> GET /comment/1 {}
+[2021-5-6 23:30:39] 💌 << 200 OK
+[2021-5-6 23:30:39] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:30:39] 💌 << 200 OK
+[2021-5-6 23:30:39] 📨 >> GET /comment/1 {}
+[2021-5-6 23:30:40] 💌 << 200 OK
+[2021-5-6 23:30:48] 📨 >> POST /auth/login {
+	"email": "Haven_Von20@yahoo.com",
+	"password": "oKJqIZK2PQ0BHpq"
+}
+[2021-5-6 23:30:48] 💌 << 200 OK
+[2021-5-6 23:30:48] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:30:48] 💌 << 200 OK
+[2021-5-6 23:30:48] 📨 >> GET /comment/1 {}
+[2021-5-6 23:30:48] 💌 << 200 OK
+[2021-5-6 23:30:48] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:30:49] 💌 << 200 OK
+[2021-5-6 23:30:49] 📨 >> GET /comment/1 {}
+[2021-5-6 23:30:49] 💌 << 200 OK
+[2021-5-6 23:30:56] 📨 >> POST /auth/login {
+	"email": "Florencio_Ebert77@gmail.com",
+	"password": "3J9ohWImOISEyDs"
+}
+[2021-5-6 23:30:56] 💌 << 200 OK
+[2021-5-6 23:30:56] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:30:56] 💌 << 200 OK
+[2021-5-6 23:30:56] 📨 >> GET /comment/1 {}
+[2021-5-6 23:30:57] 💌 << 200 OK
+[2021-5-6 23:30:57] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:30:57] 💌 << 200 OK
+[2021-5-6 23:30:57] 📨 >> GET /comment/1 {}
+[2021-5-6 23:30:57] 💌 << 200 OK
+[2021-5-6 23:31:10] 📨 >> POST /auth/login {
+	"email": "Davon47@gmail.com",
+	"password": "57bfQRneBnU4BuG"
+}
+[2021-5-6 23:31:11] 💌 << 200 OK
+[2021-5-6 23:31:11] 📨 >> GET /comment/1/upvote {}
+[2021-5-6 23:31:11] CommentException: Cannot up vote Comment: Comment has already been up voted.
+    at Comment.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:96:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.upVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:61:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:31:11] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:31:25] 📨 >> POST /auth/login {
+	"email": "Breanne.Schinner36@hotmail.com",
+	"password": "h1NY_cwjjRsvqHK"
+}
+[2021-5-6 23:31:25] 💌 << 200 OK
+[2021-5-6 23:31:25] 📨 >> GET /comment/1/downvote {}
+[2021-5-6 23:31:25] CommentException: Cannot down vote Comment: Comment has already been down voted.
+    at Comment.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:147:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.downVote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:75:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:31:25] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:31:45] 📨 >> POST /auth/login {
+	"email": "Napoleon.Waelchi@hotmail.com",
+	"password": "0r7bbKFvgFdqW7w"
+}
+[2021-5-6 23:31:45] 💌 << 200 OK
+[2021-5-6 23:31:45] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:31:45] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:89:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:31:45] 💌 << 400 BAD_REQUEST
+[2021-5-6 23:32:0] 📨 >> POST /auth/login {
+	"email": "Abel_Walter49@hotmail.com",
+	"password": "KKo_7hwZ54XVx5s"
+}
+[2021-5-6 23:32:0] 💌 << 200 OK
+[2021-5-6 23:32:0] 📨 >> GET /comment/1/unvote {}
+[2021-5-6 23:32:0] CommentException: Cannot unvote Comment: Comment must first be up or down voted.
+    at Comment.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/models/Comment.js:179:19)
+    at runMicrotasks (<anonymous>)
+    at processTicksAndRejections (internal/process/task_queues.js:93:5)
+    at async CommentController.unvote (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/controllers/CommentController.js:89:9)
+    at async Router.dispatch (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/router/Router.js:40:23)
+    at async App.sendResponse (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/src/App.js:43:20)
+    at async Server.<anonymous> (/home/gjj/web-ii/Assignments/assignment-5-gjj08519/server.js:91:2)
+[2021-5-6 23:32:0] 💌 << 400 BAD_REQUEST
